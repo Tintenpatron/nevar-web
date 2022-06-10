@@ -7,7 +7,7 @@
             <p>
                 Jonas Pape<br>
                 c/o Lukas Wanro<br>
-                Bertnazikgasse 1/12/4<br>
+                Bernatzikgasse 1/12/4<br>
                 1190 Vienna<br>
                 Austria
             </p>
