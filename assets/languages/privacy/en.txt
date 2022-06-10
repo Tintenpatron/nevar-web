@@ -84,7 +84,7 @@
                 <span class='adsimple-311988122' style='font-weight: 400'>
                                     Jonas Pape<br />
                                     c/o Lukas Wanro<br>
-                                    Bernatzikgasse 1/12/4, 1190 Wien Österreich<br>
+                                    Bernatzikgasse 1/12/4, 1190 Vienna<br>
                                 </span>
                                 </p>
                                 <p>E-Mail: <a href='mailto:legal@nevar.eu'>legal@nevar.eu</a>
