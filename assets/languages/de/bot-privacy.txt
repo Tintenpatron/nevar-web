@@ -1,0 +1,75 @@
+<h4>Datenschutz Informationen gemäß der Discord-Developer TOS</h4>
+<br>
+<b style='color: #D48166'>Welche Daten erheben wir?</b><br>
+<p>Wir speichern Discord Nutzer IDs, Nutzernamen, Server IDs, Servernamen, Channel IDs sowie Rollen IDs. Diese Daten erheben wir
+    durch die Discord API und eine automatische Löschung dieser ist nicht vorgesehen. Persönliche Daten die nicht sowieso öffentlich
+    einsehbar sind, werden nicht von uns gespeichert.
+    <br><br>Für statistische Zwecke und die Nachvollziehung bestimmter Geschehnisse erheben wir folgende Daten bei jeder Ausführung eines Commands:
+<li>Name, ID und Erstellungsdatum des Nutzers</li>
+<li>Command der genutzt wurde mit allen angegebenen Argumenten</li>
+<li>Datum der Ausführung und Typ des Commands</li>
+<li>Name, ID und Erstellungsdatum des Channels</li>
+<li>Name, ID und Erstellungsdatum des Servers</li>
+<br>Ein Objekt des Command-Logs kann wie folgt aussehen:<br><br>
+<code>
+{<br>
+&nbsp;&nbsp;id: ObjectId('6266c5f4b6fc0928acb6b8c7'),<br>
+&nbsp;&nbsp;command: 'ban',<br>
+&nbsp;&nbsp;args: ['775741196206473226', 'bye', '7d'],<br>
+&nbsp;&nbsp;type: 'slash',<br>
+&nbsp;&nbsp;date: 1650902512646,<br>
+&nbsp;&nbsp;executor: {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;username: 'Tinte',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;discriminator: '9309,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;id: '631176108372656148',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;createdAt: '2019-10-08T17:08:30.921+00:00'<br>
+&nbsp;&nbsp;},<br>
+&nbsp;&nbsp;guild: {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;name: 'Nevar - Test',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;id: '860171193402654762',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;createdAt: '2021-07-01T14:53:13.715+00:00'<br>
+&nbsp;&nbsp;},<br>
+&nbsp;&nbsp;channel: {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;name: '💬〢chat',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;id: '957669641386340474',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;createdAt: '2022-03-27T15:57:15.148+00:00'<br>
+&nbsp;&nbsp;},<br>
+&nbsp;&nbsp;__v: 0<br>
+}<br>
+</code>
+</p><br>
+<b style='color: #D48166'>Wieso speichern wir Daten und wofür nutzen wir sie?</b><br>
+<p>Wir benötigen die genannten Daten, um grundlegende Funktionen anbieten zu können. Ohne das Speichern der Daten wäre unser Bot nicht
+    funktionsfähig, sodass wir von einer Speicherung nicht absehen können. Beispielsweise für Reactionroles, unser Blockiersystem, Bans
+    und viele weitere Funktionen sind wir auf die Speicherung der Daten angewiesen.
+</p>
+<br>
+<b style='color: #D48166'>Wo speichern wir die Daten und wer hat Zugriff zu ihnen?</b><br>
+<p>Wir nutzen eine MongoDB Datenbank, um alles was Daten betrifft zu speichern. Weniger relevante Daten die nach einer bestimmten Zeit
+    automatisch wieder gelöscht werden (u.a. alle AFK Daten), speichern wir in JSON Dateien. Weder auf unsere MongoDB Datenbank noch auf unsere JSON Dateien
+    kann man von extern aus zugreifen. Es hat nur eine Person Zugriff auf unseren Server, der mit maximaler Sicherheit vor unbefugten Zugriffen
+    geschützt ist.
+</p>
+<br>
+<b style='color: #D48166'>Kann ich meine Daten löschen?</b><br>
+<p>Ja, deine Daten kannst du zum Teil von uns löschen lassen.<br>
+<li><b>Server-Daten:</b> Alle Server-basierten Daten können gelöscht werden<br></li>
+<li><b>Nutzer-Daten:</b> Bis auf die AFK-Daten (welche automatisch gelöscht werden), lassen sich alle Nutzer-Daten löschen<br></li>
+<li><b>Mitglieds-Daten:</b> Bis auf Daten bzgl. Bans sowie Mutes lassen sich alle Mitglieds-Daten löschen<br></li>
+<li><b>Log-Daten:</b> Wir speichern die Nutzung jeglicher Commands, diese Daten dienen lediglich zur Erhebung von Nutzungsstatistiken unseres Bots sowie der Nachvollziehung bestimmter Geschehnisse.
+    Sie sind nicht für eine Löschung vorgesehen.</p>
+</li>
+<br>
+<b style='color: #D48166'>Wie kann ich meine Daten löschen lassen?</b><br>
+<p>Du kannst deine Daten ohne großen Aufwand in wenigen Sekunden selber löschen: beim /delete-data Command kommt ein entsprechendes Menü, wo du deine Nutzer-/Mitglieds-/Server-Daten löschen kannst.
+</p>
+<br>
+<b style='color: #D48166'>Wo melde ich mich, wenn ich Bedenken oder Fragen bezüglich meiner Daten habe?</b><br>
+<p>Sollte es bei dir zu Bedenken oder Fragen bezüglich deiner Daten kommen, zögere nicht dich an uns zu wenden. Gerne stehen wir dir auf
+    unserem <a href='/support'>Supportserver</a> sowie per E-Mail an <a href='mailto:legal@nevar.eu'>legal@nevar.eu</a> zur Verfügung.
+</p>
+<br>
+<b style='color: #D48166'>Disclaimer:</b><br>
+<p>Wir nehmen uns das Recht, diese Seite jederzeit ohne Ankündigung oder Hinweis zu aktualisieren. Wer auf dem neuesten Stand bleiben möchte,
+    muss eigenständig dafür sorgen.
+</p>

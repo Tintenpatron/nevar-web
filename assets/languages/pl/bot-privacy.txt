@@ -1,0 +1,75 @@
+<h4>Informacje o ochronie prywatności zgodnie z Regulaminem Discord Developer</h4>
+<br>
+<b style='color: #D48166'>Jakie dane gromadzimy?</b><br>
+<p>Przechowujemy identyfikatory użytkowników Discord, nazwy użytkowników, identyfikatory serwerów, nazwy serwerów, identyfikatory kanałów i identyfikatory ról. Dane te gromadzimy za pomocą
+       za pośrednictwem interfejsu API Discord i nie ma możliwości automatycznego usuwania tych danych. Dane osobowe, które nie są jeszcze publicznie dostępne
+       nie są przez nas przechowywane.
+    <br><br>W celach statystycznych oraz do śledzenia pewnych zdarzeń za każdym razem, gdy wykonywane jest polecenie, gromadzimy następujące dane:
+<li>Nazwa, identyfikator i data utworzenia użytkownika</li>
+<li>Polecenie, które zostało użyte z wszystkimi określonymi argumentami</li>
+<li>Data wykonania i typ polecenia</li>
+<li>Nazwa, identyfikator i data utworzenia kanału</li>
+<li>Nazwa, identyfikator i data utworzenia serwera</li>
+<br>Obiekt dziennika poleceń może wyglądać następująco:<br><br>
+<code>
+{<br>
+&nbsp;&nbsp;id: ObjectId('6266c5f4b6fc0928acb6b8c7'),<br>
+&nbsp;&nbsp;command: 'ban',<br>
+&nbsp;&nbsp;args: ['775741196206473226', 'bye', '7d'],<br>
+&nbsp;&nbsp;type: 'slash',<br>
+&nbsp;&nbsp;date: 1650902512646,<br>
+&nbsp;&nbsp;executor: {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;username: 'Tinte',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;discriminator: '9309,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;id: '631176108372656148',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;createdAt: '2019-10-08T17:08:30.921+00:00'<br>
+&nbsp;&nbsp;},<br>
+&nbsp;&nbsp;guild: {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;name: 'Nevar - Test',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;id: '860171193402654762',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;createdAt: '2021-07-01T14:53:13.715+00:00'<br>
+&nbsp;&nbsp;},<br>
+&nbsp;&nbsp;channel: {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;name: '💬〢chat',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;id: '957669641386340474',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;createdAt: '2022-03-27T15:57:15.148+00:00'<br>
+&nbsp;&nbsp;},<br>
+&nbsp;&nbsp;__v: 0<br>
+}<br>
+</code>
+</p><br>
+<b style='color: #D48166'>Dlaczego przechowujemy dane i do czego są one wykorzystywane?</b><br>
+<p>Wymienione wyżej dane są nam potrzebne, abyśmy mogli oferować podstawowe funkcje. Bez przechowywania danych nasz bot nie mógłby
+       funkcjonalne, więc nie możemy się powstrzymać od ich przechowywania. Na przykład, w przypadku ról reakcji, nasz system blokowania zakazuje
+       i wielu innych funkcji, jesteśmy uzależnieni od przechowywania danych.
+</p>
+<br>
+<b style='color: #D48166'>Gdzie są przechowywane dane i kto ma do nich dostęp?</b><br>
+<p>Do przechowywania wszystkich danych używamy bazy danych MongoDB. Mniej istotne dane, które są automatycznie usuwane po określonym czasie
+       (np. wszystkie dane AFK) przechowujemy w plikach JSON. Ani nasza baza danych MongoDB, ani nasze pliki JSON nie są dostępne z zewnątrz.
+       można uzyskać dostęp z zewnątrz. Tylko jedna osoba ma dostęp do naszego serwera, który jest maksymalnie zabezpieczony przed dostępem osób nieupoważnionych.
+       chroniony.
+</p>
+<br>
+<b style='color: #D48166'>Czy mogę usunąć swoje dane?</b><br>
+<p>Tak, niektóre dane mogą zostać przez nas usunięte..<br>
+<li><b>Dane serwera:</b> Alle Server-basierten Daten können gelöscht werden<br></li>
+<li><b>Dane użytkownika:</b> Bis auf die AFK-Daten (welche automatisch gelöscht werden), lassen sich alle Nutzer-Daten löschen<br></li>
+<li><b>Dane dotyczące członkostwa:</b> Bis auf Daten bzgl. Bans sowie Mutes lassen sich alle Mitglieds-Daten löschen<br></li>
+<li><b>Dane dziennika:</b> Przechowujemy dane dotyczące użycia wszelkich poleceń, dane te są wykorzystywane wyłącznie do zbierania statystyk użytkowania naszego bota oraz do śledzenia pewnych zdarzeń.
+                               Nie są one przeznaczone do usunięcia.</p>
+</li>
+<br>
+<b style='color: #D48166'>Jak mogę usunąć swoje dane?</b><br>
+<p>Dane można usunąć samodzielnie bez większego wysiłku w ciągu kilku sekund: polecenie /delete-data powoduje wyświetlenie menu, z którego można usunąć dane użytkownika/członka/serwera.
+</p>
+<br>
+<b style='color: #D48166'>Z kim mogę się skontaktować, jeśli mam wątpliwości lub pytania dotyczące moich danych?</b><br>
+<p>Jeśli masz jakiekolwiek wątpliwości lub pytania dotyczące Twoich danych, nie wahaj się z nami skontaktować. Chętnie Cię podniesiemy
+        nasz <a href='/support'>serwer wsparcia</a> i e-mailem na adres <a href='mailto:legal@nevar.eu'>legal@nevar.eu</a>
+</p>
+<br>
+<b style='color: #D48166'>Zastrzeżenia:</b><br>
+<p>Zastrzegamy sobie prawo do aktualizacji tej strony w dowolnym czasie bez uprzedzenia lub komentarza. Ci, którzy chcą być na bieżąco
+       musi niezależnie zapewnić.
+</p>

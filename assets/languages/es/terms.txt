@@ -1,7 +1,9 @@
 <h1 style='color: #D48166'>Términos de Uso</h1>
-<br><p>Esta política se actualizó por última vez el <b>22-05-2022</b> (dd-mm-YYYY) y se aplica a todos los servidores de
-Discord que forman parte de la red de Nevar..
-Nos reservamos el derecho de adaptar y cambiar las siguientes reglas en cualquier momento sin previo aviso.</p>
+<br>
+<p>Esta política se actualizó por última vez el <b>22-05-2022</b> (dd-mm-YYYY) y se aplica a todos los servidores de
+    Discord que forman parte de la red de Nevar..
+    Nos reservamos el derecho de adaptar y cambiar las siguientes reglas en cualquier momento sin previo aviso.
+</p>
 <br>
 <h2 style='color: #D48166'>Explicaciones de términos</h2>
 <li>Usuario: cualquier cuenta independiente, independientemente de su verdadera identidad, se denomina usuario.</li>
@@ -13,40 +15,49 @@ Nos reservamos el derecho de adaptar y cambiar las siguientes reglas en cualquie
 <br>
 <h4 style='color: #D48166'>§1.2 Reconocimiento de las normas</h4>
 <p>(1) Cada usuario acepta el conjunto de reglas ingresando al servidor o invitando al bot. Él confirma, las reglas en su totalidad
-       Tener alcance percibido y apegarse a él.</p>
+    Tener alcance percibido y apegarse a él.
+</p>
 <p>(2) No hay derecho de cancelación de las reglas, solo el usuario abandona el servidor o patea el bot.</p>
 <p>(3) Cada usuario está obligado a informarse de forma independiente sobre las actualizaciones y cambios en el conjunto de reglas.
-       La ignorancia de ninguna manera protege contra el castigo.</p>
+    La ignorancia de ninguna manera protege contra el castigo.
+</p>
 <br>
 <h4 style='color: #D48166'>§1.3 Obligación de informar</h4>
 <p>(1) Cada usuario está sujeto a una obligación de informar. Entonces, si un usuario (de forma pasiva o activa) detecta una violación de la regla,
-       está obligado a informar esto a un miembro del equipo lo más rápido posible.</p>
+    está obligado a informar esto a un miembro del equipo lo más rápido posible.
+</p>
 <br>
 <h4 style='color: #D48166'>§1.4 Seguimiento de la actuación de los moderadores</h4>
 <p>(1) Todo usuario está obligado a obedecer las solicitudes de los moderadores siempre que no
-violen las reglas o los principios morales.</p>
+    violen las reglas o los principios morales.
+</p>
 <br>
 <h4 style='color: #D48166'>§1.5 Representación de cuenta</h4>
 <p>(1) Las imágenes de perfil, los apodos, "Acerca de mí" y todo lo demás no deben contener componentes ni
- símbolos infractores, insultantes, prohibidos o legalmente protegidos..</p>
+    símbolos infractores, insultantes, prohibidos o legalmente protegidos..
+</p>
 <p>(2) Asimismo, lo anterior no deberá ser copiado por otro usuario para poder suplantarlo..</p>
 <br>
 <h4 style='color: #D48166'>§1.6 Reglas generales</h4>
 <p>(1) Es obligatorio adherirse permanentemente a los <a rel='noopener' target='_blank' href='https://discord.com/terms'>Términos de servicio de Discord</a>, los
- <a rel='noopener ' target='_blank' href='https://discord.com/guidelines'>Directrices de la comunidad de Discord</a> y cumplir con la ley alemana.</p>
+    <a rel='noopener ' target='_blank' href='https://discord.com/guidelines'>Directrices de la comunidad de Discord</a> y cumplir con la ley alemana.
+</p>
 <br>
 <h2 style='color: #D48166'>§2 Comportamiento en el chat</h2>
 <h4 style='color: #D48166'>§2.1 Tono de voz</h4>
 <p>(1) La amabilidad y la cortesía siempre tienen la máxima prioridad. Todo usuario debe comportarse de tal manera que ningún
-       otro usuario se siente acosado.</p>
+    otro usuario se siente acosado.
+</p>
 <p>(2) Se deben evitar los insultos, las discusiones provocativas y cualquier forma de spam.</p>
 <br>
 <h4 style='color: #D48166'>§2.2 Distribución de Contenido</h4>
 <p>(1) Afirmar y glorificar o difundir cualquier forma de material relacionado con la violencia, el sexismo, el racismo
-       u otros temas inmorales no serán tolerados de ninguna manera.</p>
+    u otros temas inmorales no serán tolerados de ninguna manera.
+</p>
 <p>(2) Se prohíben declaraciones falsas, calumnias o similares.</p>
 <p>(3) Los datos privados, como números de teléfono, direcciones, fotografías, etc., no pueden solicitarse ni intercambiarse públicamente.
-También está prohibido compartir cuentas mediante la transmisión de contraseñas.</p>
+    También está prohibido compartir cuentas mediante la transmisión de contraseñas.
+</p>
 <p>(4) Queda prohibida la publicidad externa de cualquier tipo en imagen y escrito, incluidos los mensajes privados a los usuarios de nuestro servidor.</p>
 <p>(5) Los mensajes y las imágenes siempre deben ajustarse al tema dado del chat.</p>
 <br>
@@ -60,7 +71,8 @@ También está prohibido compartir cuentas mediante la transmisión de contrase�
 <h2 style='color: #D48166'>§4 Uso del bot de Nevar</h2>
 <h4 style='color: #D48166'>§4.1 Edad mínima</h4>
 <p>(1) Siempre estamos listos para hacer cumplir constantemente la edad mínima especificada por Discord.
-Puede averiguar qué edad mínima se aplica a usted aquí: <a rel='noopener' target='_blank' href='https://support.discord.com/hc/es/articles/360040724612'>¿Por qué Discord quiere saber mi fecha de nacimiento?</a></p>
+    Puede averiguar qué edad mínima se aplica a usted aquí: <a rel='noopener' target='_blank' href='https://support.discord.com/hc/es/articles/360040724612'>¿Por qué Discord quiere saber mi fecha de nacimiento?</a>
+</p>
 <br>
 <h4 style='color: #D48166'>§4.2 Abuso de errores</h4>
 <p>(1) Está prohibido enviar spam con comandos para sobrecargar el bot.</p>
@@ -69,7 +81,8 @@ Puede averiguar qué edad mínima se aplica a usted aquí: <a rel='noopener' tar
 <br>
 <h4 style='color: #D48166'>§4.3 Responsabilidad</h4>
 <p>(1) No somos responsables de ningún contenido enviado y distribuido por un usuario a través de Nevar Bot (por ejemplo, a través del comando de inserción).
-Podemos mostrar en cualquier momento qué usuario es responsable de qué contenido.</p>
+    Podemos mostrar en cualquier momento qué usuario es responsable de qué contenido.
+</p>
 <br>
 <h2 style='color: #D48166'>§5 Nuestro enfoque para las violaciones de reglas</h2>
 <h4 style='color: #D48166'>§5.1 Penalización básica</h4>
@@ -77,12 +90,10 @@ Podemos mostrar en cualquier momento qué usuario es responsable de qué conteni
 <br>
 <h4 style='color: #D48166'>§5.2 Infracciones de reglas en el servidor de soporte</h4>
 <p>(1) Si hay violaciones de las reglas en el servidor de soporte, el resultado puede ser cualquier cosa, desde un tiempo de espera hasta una prohibición permanente.
-Das Team hat gewisse Leitlinien wie zu reagieren ist, wie genau die Bestrafung dann ausfällt kann aber jedes mal verschieden sein.</p>
+    Das Team hat gewisse Leitlinien wie zu reagieren ist, wie genau die Bestrafung dann ausfällt kann aber jedes mal verschieden sein.
+</p>
 <br>
 <h4 style='color: #D48166'>§5.3 Violaciones de reglas al usar el bot</h4>
 <p>(1) Si hay violaciones de las reglas al usar Nevar, el bot en la mayoría de los casos bloqueará temporalmente al usuario.
-Sin embargo, esto también puede ser permanente bajo ciertas circunstancias.</p>
-
-
-
-
+    Sin embargo, esto también puede ser permanente bajo ciertas circunstancias.
+</p>

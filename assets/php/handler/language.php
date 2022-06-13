@@ -12,10 +12,10 @@ if(!isset($_COOKIE["language"])){
 }else{
     // cookie found, set language to cookie value
     $cookie_lang = $_COOKIE["language"];
-    if($cookie_lang === "de" || $cookie_lang === "en" || $cookie_lang === "es"){
+    if($cookie_lang === "de" || $cookie_lang === "en" || $cookie_lang === "es" || $cookie_lang === "pl"){
         $_SESSION["lang"] = $cookie_lang;
     };
 };
 
 // require language file
-require_once $_SERVER["DOCUMENT_ROOT"] . "/assets/languages/" . $_SESSION["lang"] . ".php";
+require_once $_SERVER["DOCUMENT_ROOT"] . "/assets/languages/" . $_SESSION["lang"] . "/lang.php";

@@ -4,12 +4,12 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/assets/php/functions/data.php';
 include_once $_SERVER['DOCUMENT_ROOT'] . '/assets/php/functions/switchLang.php';
 ?>
 <!DOCTYPE html>
-<html lang="<?=$lang["lang_iso"]; ?>">
+<html lang="<?=$lang["lang"]["iso"]; ?>">
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title><?=$lang["bp_title"] ?></title>
-    <meta content="<?=$lang["bp_metadescription"] ?>" name="description">
+    <title><?=$lang["botprivacy"]["title"] ?></title>
+    <meta content="<?=$lang["general"]["ogDescription"] ?>" name="description">
     <meta content="Discord, Discord Bot, Nevar, Open Source Bot, Bot, Nevar Bot" name="keywords">
 
     <!-- OG Tags -->
@@ -61,17 +61,17 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/assets/php/functions/switchLang.php';
         <div class="container">
             <ol>
                 <li><a href="/">Home</a></li>
-                <li><?=$lang["bp_breadcrumb_1"]; ?></li>
-                <li><a href=""><?=$lang["bp_breadcrumb_2"]; ?></a></li>
+                <li><?=$lang["botprivacy"]["breadcrumbs"]["1"]; ?></li>
+                <li><a href=""><?=$lang["botprivacy"]["breadcrumbs"]["2"]; ?></a></li>
             </ol>
-            <h2><?=$lang["bp_breadcrumb_2"]; ?></h2>
+            <h2><?=$lang["botprivacy"]["breadcrumbs"]["2"]; ?></h2>
         </div>
     </section>
     <!-- End Breadcrumbs -->
     <section class="inner-page">
         <div class="container">
             <p>
-                <?=$lang["bp_text"]; ?>
+                <?=$lang["botprivacy"]["text"]; ?>
             </p>
         </div>
     </section>
@@ -95,7 +95,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/assets/php/functions/switchLang.php';
 <link rel="stylesheet" href="/assets/css/cookies.css" />
 <script src="/assets/js/cookies.js"></script>
 <script>
-    glowCookies.start('<?=$lang["lang_iso"]; ?>', {
+    glowCookies.start('<?=$lang["lang"]["iso"]; ?>', {
         policyLink: '/go/legal/privacy',
         style: 1,
         bannerBackground: '#E6E2DD'

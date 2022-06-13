@@ -82,17 +82,17 @@
             <h2 id='kontaktdaten-verantwortliche' class='adsimple-311988122'>Kontaktdaten des Verantwortlichen</h2>
             <p>Sollten Sie Fragen zum Datenschutz haben, finden Sie nachfolgend die Kontaktdaten der verantwortlichen Person bzw. Stelle:<br />
                 <span class='adsimple-311988122' style='font-weight: 400'>
-                                    Jonas Pape<br />
-                                    c/o Julian Bastien Wiedemann<br>
-                                    Große Rurstraße 84, 52428 Jülich<br>
-                                </span>
-                                </p>
-                                <p>E-Mail: <a href='mailto:legal@nevar.eu'>legal@nevar.eu</a>
-                                <br />
-                                    Telefon: +49 176 56879254
-                                    <br />
-                                    Impressum: <a href='./imprint'><?= $_SERVER['SERVER_NAME']?>/go/legal/imprint</a>
-                                </p>
+                    Jonas Pape<br />
+                    c/o Julian Bastien Wiedemann<br>
+                    Große Rurstraße 84, 52428 Jülich<br>
+                </span>
+                </p>
+                <p>E-Mail: <a href='mailto:legal@nevar.eu'>legal@nevar.eu</a>
+                <br />
+                    Telefon: +49 176 56879254
+                    <br />
+                    Impressum: <a href='./imprint'><?= $_SERVER['SERVER_NAME']?>/go/legal/imprint</a>
+                </p>
             <h2 id='speicherdauer' class='adsimple-311988122'>Speicherdauer</h2>
             <p>Dass wir personenbezogene Daten nur so lange speichern, wie es für die Bereitstellung unserer Dienstleistungen und Produkte unbedingt notwendig ist, gilt als generelles Kriterium bei uns. Das bedeutet, dass wir personenbezogene Daten löschen, sobald der Grund für die Datenverarbeitung nicht mehr vorhanden ist. In einigen Fällen sind wir gesetzlich dazu verpflichtet, bestimmte Daten auch nach Wegfall des ursprüngliches Zwecks zu speichern, zum Beispiel zu Zwecken der Buchführung.</p>
             <p>Sollten Sie die Löschung Ihrer Daten wünschen oder die Einwilligung zur Datenverarbeitung widerrufen, werden die Daten so rasch wie möglich und soweit keine Pflicht zur Speicherung besteht, gelöscht.</p>
@@ -360,8 +360,10 @@
                 <u>. </u>Fragen zum Datenschutz können Sie per E-Mail an <a class='adsimple-311988122' href='mailto:privacy@matomo.org'>privacy@matomo.org</a> richten.</p>
             <iframe
                 style="border: 0; height: 200px; width: 600px;"
-                src="https://nevar.eu/matomo/index.php?module=CoreAdminHome&action=optOut&language=es&backgroundColor=ffffff&fontColor=000000&fontSize=&fontFamily=Arial"
+                src="https://nevar.eu/matomo/index.php?module=CoreAdminHome&action=optOut&language=de&backgroundColor=ffffff&fontColor=000000&fontSize=&fontFamily=Arial"
             ></iframe>
+
+
             <h2 id='content-delivery-networks-einleitung' class='adsimple-311988122'>Content Delivery Networks Einleitung</h2>
             <table border='1' cellpadding='15'>
                 <tbody>

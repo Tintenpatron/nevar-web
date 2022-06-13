@@ -7,12 +7,12 @@ if(isset($_GET['r']) && filter_var($_GET['r'], FILTER_VALIDATE_BOOL) === true) h
 
 ?>
 <!DOCTYPE html>
-<html lang="<?=$lang["lang_iso"]; ?>">
+<html lang="<?=$lang["lang"]["iso"]; ?>">
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title><?=$lang["inv_title"] ?></title>
-    <meta content="<?=$lang["inv_metadescription"] ?>" name="description">
+    <title><?=$lang["invite"]["title"] ?></title>
+    <meta content="<?=$lang["general"]["ogDescription"] ?>" name="description">
     <meta content="Discord, Discord Bot, Nevar, Open Source Bot, Bot, Nevar Bot" name="keywords">
 
     <!-- OG Tags -->
@@ -65,19 +65,19 @@ if(isset($_GET['r']) && filter_var($_GET['r'], FILTER_VALIDATE_BOOL) === true) h
         <div class="container">
             <ol>
                 <li><a href="/">Home</a></li>
-                <li><?=$lang["inv_breadcrumb_1"]; ?></li>
-                <li><a href=""><?=$lang["inv_breadcrumb_2"]; ?></a></li>
+                <li><?=$lang["invite"]["breadcrumbs"]["1"]; ?></li>
+                <li><a href=""><?=$lang["invite"]["breadcrumbs"]["2"]; ?></a></li>
             </ol>
-            <h2><?=$lang["inv_breadcrumb_2"]; ?></h2>
+            <h2><?=$lang["invite"]["breadcrumbs"]["2"]; ?></h2>
         </div>
     </section>
     <!-- End Breadcrumbs -->
     <section class="inner-page">
         <div class="container">
             <p>
-                <?=$lang["inv_text"]; ?>
-                <a href="?r=true" class="btn-invite scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                    <span><?=$lang["invite"] ?></span>
+                <?=$lang["invite"]["text"]; ?>
+                <a href="?r=1" class="btn-invite scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                    <span><?=$lang["general"]["labels"]["invite"] ?></span>
                     <i class="bi bi-arrow-right"></i>
                 </a>
             </p>

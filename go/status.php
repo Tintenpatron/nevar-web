@@ -6,12 +6,12 @@ $code = 404;
 if(isset($_GET['code']) && is_numeric($_GET['code'])) $code = $_GET['code'];
 ?>
 <!DOCTYPE html>
-<html lang="<?=$lang["lang_iso"]; ?>">
+<html lang="<?=$lang["lang"]["iso"]; ?>">
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title><?=$lang["title_$code"] ?></title>
-    <meta content="<?=$lang["desc_$code"] ?>" name="description">
+    <title><?=$lang["status"]["errors"]["$code"]["title"] ?></title>
+    <meta content="<?=$lang["status"]["errors"]["$code"]["description"] ?>" name="description">
     <meta content="Discord, Discord Bot, Nevar, Open Source Bot, Bot, Nevar Bot" name="keywords">
 
     <!-- OG Tags -->
@@ -64,20 +64,19 @@ if(isset($_GET['code']) && is_numeric($_GET['code'])) $code = $_GET['code'];
         <div class="container">
             <ol>
                 <li><a href="/">Home</a></li>
-                <li><?=$lang["breadcrumb_status"]; ?></li>
-                <li><a href=""><?=$lang["breadcrumb_$code"]; ?></a></li>
+                <li><?=$lang["status"]["errors"]["$code"]["breadcrumbs"]["1"]; ?></li>
+                <li><a href=""><?=$lang["status"]["errors"]["$code"]["breadcrumbs"]["2"]; ?></a></li>
             </ol>
-            <h2><?=$lang["breadcrumb_$code"]; ?></h2>
+            <h2><?=$lang["status"]["errors"]["$code"]["breadcrumbs"]["2"]; ?></h2>
         </div>
     </section>
     <!-- End Breadcrumbs -->
     <section class="inner-page offline" id="t">
         <div class="container offline" id="t">
-            <h1 style='color: #D48166'><?=$lang["status_$code"]; ?></h1>
+            <h1 style='color: #D48166'><?=$lang["status"]["errors"]["$code"]["text"]; ?></h1>
             <div id="messageBox" class="sendmessage">
-                <h2 style="text-align: center;font-family: 'Open Sans', sans-serif;" class="desktop-only"><?=$lang["dino_start"]; ?></h2>
-                <h2 style="text-align: center;font-family: 'Open Sans', sans-serif;" class="mobile-only"><?=$lang["dino_start_mobile"]; ?></h2>
-                <div class="niokbutton" onclick="okbuttonsend()"></div>
+                <h2 style="text-align: center;font-family: 'Open Sans', sans-serif;" class="desktop-only"><?=$lang["status"]["dinogame"]["start"]; ?></h2>
+                <h2 style="text-align: center;font-family: 'Open Sans', sans-serif;" class="mobile-only"><?=$lang["status"]["dinogame"]["start-mobile"]; ?></h2>
             </div>
             <div id="main-frame-error" class="interstitial-wrapper">
                 <div id="main-content">
@@ -94,7 +93,7 @@ if(isset($_GET['code']) && is_numeric($_GET['code'])) $code = $_GET['code'];
                 </div>
             </div>
             <div id="messageBox" class="desktop-only">
-                <h3><?= $lang['dino_introductions']?></h3>
+                <h3><?= $lang["status"]["dinogame"]["instructions"]?></h3>
             </div>
         </div>
     </section>
@@ -116,14 +115,11 @@ if(isset($_GET['code']) && is_numeric($_GET['code'])) $code = $_GET['code'];
 <script src="/assets/js/main.js"></script>
 
 <!-- Dino Game -->
-
-
-
 </body>
 <link rel="stylesheet" href="/assets/css/cookies.css" />
 <script src="/assets/js/cookies.js"></script>
 <script>
-    glowCookies.start('<?=$lang["lang_iso"]; ?>', {
+    glowCookies.start('<?=$lang["lang"]["iso"]; ?>', {
         policyLink: '/go/legal/privacy',
         style: 1,
         bannerBackground: '#E6E2DD'

@@ -16,7 +16,7 @@ $teamMembers = get_json_data('staffs');
             </div>
             <div class="member-info">
                 <h4><?= $splitted[0]?></h4>
-                <span><?= $lang[trim($splitted[3])]?></span>
+                <span><?= $lang["home"]["sections"]["team"]["labels"][trim($splitted[3])]?></span>
             </div>
         </div>
     </div>

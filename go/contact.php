@@ -4,12 +4,12 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/assets/php/functions/data.php';
 include_once $_SERVER['DOCUMENT_ROOT'] . '/assets/php/functions/switchLang.php';
 ?>
 <!DOCTYPE html>
-<html lang="<?=$lang["lang"]["iso"]; ?>">
+<html lang="<?=$lang["lang_iso"]; ?>">
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title><?=$lang["terms"]["title"] ?></title>
-    <meta content="<?=$lang["general"]["ogDescription"] ?>" name="description">
+    <title><?=$lang["general"]["hi"] ?></title>
+    <meta content="<?=$lang["ip_metadescription"] ?>" name="description">
     <meta content="Discord, Discord Bot, Nevar, Open Source Bot, Bot, Nevar Bot" name="keywords">
 
     <!-- OG Tags -->
@@ -29,16 +29,6 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/assets/php/functions/switchLang.php';
     <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <!-- Main CSS File -->
     <link href="/assets/css/style.css" rel="stylesheet">
-</head>
-<body style="background-color: #1A2238">
-<!-- ======= Header ======= -->
-<header id="header" class="header fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-        <a href="/" class="logo d-flex align-items-center">
-            <span>Nevar</span>
-        </a>
-        <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/assets/php/templates/navbar.php'; ?>
-    </div>
     <script>
         var _paq = window._paq = window._paq || [];
         /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
@@ -53,6 +43,16 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/assets/php/functions/switchLang.php';
             g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
         })();
     </script>
+</head>
+<body style="background-color: #1A2238">
+<!-- ======= Header ======= -->
+<header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+        <a href="/" class="logo d-flex align-items-center">
+            <span>Nevar</span>
+        </a>
+        <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/assets/php/templates/navbar.php'; ?>
+    </div>
 </header>
 <!-- End Header -->
 <main id="main">
@@ -61,18 +61,16 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/assets/php/functions/switchLang.php';
         <div class="container">
             <ol>
                 <li><a href="/">Home</a></li>
-                <li><?=$lang["terms"]["breadcrumbs"]["1"]; ?></li>
-                <li><a href=""><?=$lang["terms"]["breadcrumbs"]["2"]; ?></a></li>
+                <li><?=$lang["ip_breadcrumb_1"]; ?></li>
+                <li><a href=""><?=$lang["ip_breadcrumb_2"]; ?></a></li>
             </ol>
-            <h2><?=$lang["terms"]["breadcrumbs"]["2"]; ?></h2>
+            <h2><?=$lang["ip_breadcrumb_2"]; ?></h2>
         </div>
     </section>
     <!-- End Breadcrumbs -->
     <section class="inner-page">
         <div class="container">
-            <p>
-                <?=$lang["terms"]["text"]; ?>
-            </p>
+            <?=$lang["ip_text"]; ?>
         </div>
     </section>
 </main><!-- End #main -->
@@ -95,7 +93,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/assets/php/functions/switchLang.php';
 <link rel="stylesheet" href="/assets/css/cookies.css" />
 <script src="/assets/js/cookies.js"></script>
 <script>
-    glowCookies.start('<?=$lang["lang"]["iso"]; ?>', {
+    glowCookies.start('<?=$lang["lang_iso"]; ?>', {
         policyLink: '/go/legal/privacy',
         style: 1,
         bannerBackground: '#E6E2DD'

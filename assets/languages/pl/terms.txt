@@ -1,0 +1,101 @@
+<h1 style='color: #D48166'>Warunki użytkowania</h1>
+<br>
+<p>Ten zbiór zasad został ostatnio zaktualizowany w dniu <b>22-05-2022</b> (dd-mm-RRRR) i dotyczy wszystkich serwerów discord, które są częścią
+       Sieć Nevar.
+       Zastrzegamy sobie prawo do dostosowania i zmiany poniższych zasad w dowolnym czasie i bez uprzedzenia.
+</p>
+<br>
+<h2 style='color: #D48166'>Objaśnienie terminów</h2>
+<li>Użytkownik: Użytkownikiem jest każde niezależne konto, niezależnie od jego prawdziwej tożsamości.</li>
+<li>Przełączanie kanałów: Przełączanie kanałów polega na ciągłym przełączaniu się z jednego kanału głosowego na inny.</li>
+<br>
+<h2 style='color: #D48166'>§1 Obowiązki użytkownika</h2>
+<h4 style='color: #D48166'>§1.1 Monitorowanie zasad</h4>
+<p>(1) Każdego użytkownika obowiązują te zasady i jest on zobowiązany do ich przestrzegania.</p>
+<br>
+<h4 style='color: #D48166'>§1.2 Przyjęcie do wiadomości zasad i przepisów</h4>
+<p>(1) Każdy użytkownik akceptuje zasady, wchodząc na serwer lub zapraszając bota. Potwierdza, że jest w pełni świadomy zasad
+           zasady w całości oraz do ich przestrzegania.
+</p>
+<p>(2) Nie ma prawa do unieważnienia regulaminu, jedynie użytkownik opuszcza serwer lub wyrzuca bota.</p>
+<p>(3) Każdy użytkownik jest zobowiązany do informowania się o aktualizacjach i zmianach w regulaminie.
+           Niewiedza w żadnym wypadku nie chroni przed karą.
+</p>
+<br>
+<h4 style='color: #D48166'>§1.3 Obowiązek zgłaszania</h4>
+<p>(1) Każdy użytkownik podlega obowiązkowi raportowania. Dlatego też, jeśli użytkownik (biernie lub czynnie) wykryje naruszenie zasad,
+           jest zobowiązany do jak najszybszego zgłoszenia tego faktu członkowi zespołu.
+</p>
+<br>
+<h4 style='color: #D48166'>§1.4 Działania następcze moderatorów</h4>
+<p>(1) Każdy użytkownik jest zobowiązany do stosowania się do próśb moderatorów, o ile nie są to prośby
+           naruszać przepisy lub zasady moralne.
+</p>
+<br>
+<h4 style='color: #D48166'>§1.5 Prezentacja konta</h4>
+<p>(1) Zdjęcia profilowe, pseudonimy, "O mnie" i wszystkie inne elementy nie mogą zawierać żadnych elementów krzywdzących, obraźliwych, zabronionych lub prawnie chronionych.
+           elementy i znaki prawnie chronione.
+</p>
+<p>(2) W ten sam sposób powyższe nie może być kopiowane przez innego użytkownika w celu podszycia się pod niego.</p>
+<br>
+<h4 style='color: #D48166'>§1.6 Ogólne wytyczne</h4>
+<p>(1) Obowiązkowe jest stałe przestrzeganie <a rel='noopener' target='_blank' href='https://discord.com/terms'>Warunków korzystania z usługi Discord</a>,
+            Przestrzegaj <a rel='noopener' target='_blank' href='https://discord.com/guidelines'>Wytycznych dla społeczności Discord</a> i prawa niemieckiego.
+</p>
+<br>
+<h2 style='color: #D48166'>§2 Zachowanie na czacie</h2>
+<h4 style='color: #D48166'>§2.1 Ton społeczny</h4>
+<p>(1) Życzliwość i uprzejmość zawsze mają najwyższy priorytet. Każdy użytkownik musi zachowywać się w taki sposób, aby żaden
+           inny użytkownik czuje się nękany.
+</p>
+<p>(2) Należy powstrzymać się od obelg, prowokacyjnych dyskusji i wszelkich form spamu.</p>
+<br>
+<h4 style='color: #D48166'>§2.2 Rozpowszechnianie treści</h4>
+<p>(1) Wypowiedzi na temat przemocy, seksizmu, rasizmu, gloryfikacji lub rozpowszechniania materiałów w jakiejkolwiek formie
+           lub inne nieprzyzwoite tematy nie będą w żaden sposób tolerowane.
+</p>
+<p>(2) Fałszywe oświadczenia, zniesławienie i tym podobne są zabronione.</p>
+<p>(3) Nie wolno publicznie żądać ani wymieniać prywatnych danych, takich jak numery telefonów, adresy, zdjęcia itp.
+           wymieniane publicznie. Zabronione jest również dzielenie się kontami poprzez przekazywanie haseł.
+</p>
+<p>(4) Zabroniona jest jakakolwiek reklama osób trzecich w formie obrazkowej i pisemnej, także poprzez wiadomości prywatne do użytkowników naszego serwera.</p>
+<p>(5) Wiadomości i zdjęcia powinny zawsze pasować do danego tematu czatu.</p>
+<br>
+<h2 style='color: #D48166'>§3 Zachowanie w kanale głosowym</h2>
+<h4 style='color: #D48166'>§3.1 Prawa osobiste</h4>
+<p>(1) Głos, kamera i transmisja na żywo innych użytkowników nie mogą być w żadnych okolicznościach nagrywane bez ich wyraźnej zgody.</p>
+<br>
+<h4 style='color: #D48166'>§3.2 Przełączanie kanałów</h4>
+<p>(1) Zabroniona jest przełączanie kanałów.</p>
+<br>
+<h2 style='color: #D48166'>§4 Korzystanie z urządzenia Nevar Bot</h2>
+<h4 style='color: #D48166'>§4.1 Minimalny wiek</h4>
+<p>(1) Jesteśmy zawsze gotowi konsekwentnie egzekwować minimalny wiek ustalony przez Discord. Możesz dowiedzieć się, jaki minimalny wiek ma zastosowanie do Ciebie
+           można dowiedzieć się tutaj: <a rel='noopener' target='_blank' href='https://support.discord.com/hc/de/articles/360040724612'>Dlaczego Discord pyta o moją datę urodzenia?</a>
+</p>
+<br>
+<h4 style='color: #D48166'>§4.2 Nadużywanie błędów</h4>
+<p>(1) Zabronione jest spamowanie komend w celu przeciążenia bota.</p>
+<p>(2) Zabronione jest nadużywanie bugów dla własnych korzyści/szkody innych.</p>
+<p>(3) W przypadku wystąpienia błędów zastosowanie ma również § 1 3 ust. 1: Każdy użytkownik jest zobowiązany do niezwłocznego zgłoszenia znalezionych błędów członkowi zespołu.</p>
+<br>
+<h4 style='color: #D48166'>§4.3 Odpowiedzialność</h4>
+<p>(1) Nie ponosimy odpowiedzialności za treści przesyłane i rozpowszechniane przez użytkownika za pośrednictwem Nevar Bot (np. poprzez polecenie osadzenia).
+           Zawsze możemy wskazać, który użytkownik jest odpowiedzialny za daną treść.
+</p>
+<br>
+<h2 style='color: #D48166'>§5 Nasza procedura w przypadku naruszeń zasad</h2>
+<h4 style='color: #D48166'>§5.1 Sankcja podstawowa</h4>
+<p>(1) Z zasady każde naruszenie zasad jest rozpatrywane indywidualnie. Staramy się przy tym przestrzegać zasady
+           zasada proporcjonalności.
+</p>
+<br>
+<h4 style='color: #D48166'>§5.2 Naruszenia zasad na serwerze pomocy technicznej</h4>
+<p>(1) W przypadku złamania zasad obowiązujących na serwerze pomocy technicznej, konsekwencje mogą być różne - od kary czasowej do trwałego bana.
+           Zespół ma pewne wytyczne, jak reagować, ale dokładne kary mogą się różnić w zależności od sytuacji.
+</p>
+<br>
+<h4 style='color: #D48166'>§5.3 Naruszenie zasad korzystania z bota</h4>
+<p>(1) Jeśli podczas korzystania z Nevara zostaną złamane zasady, w większości przypadków bot tymczasowo zablokuje użytkownika.
+           Jednak w pewnych okolicznościach może to być również trwałe.
+</p>

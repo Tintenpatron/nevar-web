@@ -1,0 +1,92 @@
+<h1 style='color: #D48166'>Nadruk</h1>
+<h3>Informacje zgodnie z § 5 TMG (niemiecka ustawa o telemediach)</h3>
+<br>
+<h2 style='color: #D48166'>Dostawca usług</h2>
+<p>
+    Jonas Pape<br>
+    c/o Lukas Wanro<br>
+    Bernatzikgasse 1/12/4<br>
+    1190 Wiedeń<br>
+    Austria
+</p>
+<h2 style='color: #D48166'>Opcje kontaktu</h2>
+<p>
+    Adres e-mail:<br>
+    <a href="mailto:legal@nevar.eu">legal@nevar.eu</a>
+</p>
+<p>
+    Telefon:<br>
+    +49 176 56879254
+</p>
+<h2 style='color: #D48166'>Zastrzeżenia</h2>
+<b style='color: #D48166'>Odpowiedzialność za zawartość</b>
+<br>
+<p>
+    Zawartość naszych stron została stworzona z największą starannością. Nie ponosimy jednak
+    żadnej odpowiedzialności za poprawność, kompletność i aktualność treści. gwarancja poprawności,
+    kompletności i aktualności treści. Jako dostawca usług jesteśmy odpowiedzialni za własne treści
+    na tych stronach zgodnie z ogólnymi zasadami prawa ogólne. Jednak zgodnie z §§ 8 do 10 TMG, jako
+    dostawca usług nie jesteśmy zobowiązani do monitorowania przesyłanych lub przechowywanych danych
+    zewnętrznych. informacji lub w celu zbadania okoliczności wskazujących na działalność niezgodną z
+    prawem. Obowiązki w zakresie usuwania lub blokowanie korzystania z informacji zgodnie z przepisami
+     ogólnymi, pozostają nienaruszone. Jednakże, wszelka odpowiedzialność w tym zakresie jest jest możliwe
+     dopiero od momentu powzięcia wiadomości o konkretnym naruszeniu. Jeśli dowiemy się o takich naruszeniach,
+      natychmiast usuniemy te treści. natychmiast usunąć tę zawartość.
+</p>
+<br>
+<b style='color: #D48166'>Odpowiedzialność za linki</b>
+<br>
+<p>
+    Nasza oferta zawiera linki do zewnętrznych stron internetowych osób trzecich, na których treść nie
+    mamy wpływu. Dlatego też nie ponosimy żadnej odpowiedzialności za te nie ponosi żadnej odpowiedzialności
+    za te treści zewnętrzne. Za treść stron, do których odsyłają linki, odpowiada zawsze ich operator lub dostawca.
+    dostawca lub operator witryny. Strony, do których prowadzą łącza, zostały sprawdzone pod kątem ewentualnych
+    naruszeń prawa w momencie umieszczania łącza. Treści niezgodne z prawem nie były nielegalne treści w momencie
+    umieszczania linku. Stałe monitorowanie zawartości stron, do których prowadzą odnośniki, nie jest jednak możliwe
+    bez o naruszeniu prawa nie jest uzasadnione. W przypadku powzięcia informacji o naruszeniu prawa, linki takie
+    zostaną niezwłocznie usunięte.
+</p>
+<br>
+<b style='color: #D48166'>
+Prawa autorskie
+</b>
+<br>
+<p>
+    Treści i dzieła stworzone przez operatorów witryny na tych stronach podlegają niemieckiemu prawu autorskiemu.
+    Powielanie, przetwarzanie, rozpowszechnianie i wszelkiego rodzaju wykorzystywanie wykraczające poza granice
+    prawa autorskiego wymaga pisemnej zgody danego autora lub twórcy. Pobieranie i kopiowanie niniejszej witryny
+    jest dozwolone wyłącznie do prywatnego, niekomercyjnego użytku. O ile treści zamieszczone na tej stronie nie
+    zostały stworzone przez operatora, przestrzegane są prawa autorskie osób trzecich. W szczególności treści
+    osób trzecich są oznaczone jako takie. Jeśli mimo to dowiedzą się Państwo o naruszeniu praw autorskich,
+    prosimy o poinformowanie nas o tym. Jeśli dowiemy się o jakichkolwiek naruszeniach, natychmiast usuniemy
+    takie treści.
+</p>
+<br>
+<b style='color: #D48166'>
+Ochrona danych
+</b><br>
+<p>
+    Korzystanie z naszej strony internetowej jest zasadniczo możliwe bez podawania danych osobowych.
+    O ile dane osobowe są gromadzone na naszych stronach (np. imię i nazwisko, adres lub adres e-mail)
+     są gromadzone na naszej stronie internetowej, ale w miarę możliwości odbywa się to zawsze na zasadzie
+     dobrowolności. Dane te nie będą przekazywane osobom trzecim bez wyraźnej zgody użytkownika. Pragniemy
+     zaznaczyć, że transmisja danych w Internecie nie jest (np. podczas komunikowania się za pomocą poczty
+     elektronicznej) mogą występować luki w zabezpieczeniach. Pełna ochrona danych przed dostępem osób trzecich
+     nie jest możliwa. możliwe. Wykorzystanie danych kontaktowych opublikowanych w ramach obowiązku umieszczania
+     odcisków palców przez osoby trzecie w celu przesyłania informacji, które nie zostały wyraźnie zamówione.
+     materiały reklamowe i informacyjne, które nie zostały wyraźnie zamówione. Operatorzy stron wyraźnie zastrzegają
+     sobie kroki prawne w przypadku niezamówionego wysyłania informacji reklamowych, takich jak spam.
+</p>
+<br>
+<b style='color: #D48166'>
+Zawiadomienie zgodnie z rozporządzeniem w sprawie internetowego systemu rozstrzygania sporów
+</b><br>
+<p>
+    Zgodnie z obowiązującym prawem jesteśmy zobowiązani do informowania konsumentów o istnieniu europejskiej platformy
+    internetowego rozstrzygania sporów, która może być wykorzystywana do rozstrzygania sporów bez konieczności angażowania
+    sądu. Za utworzenie platformy odpowiedzialna jest Komisja Europejska. Europejską platformę internetowego rozstrzygania
+    sporów można znaleźć tutaj: <a href="https://ec.europa.eu/odr">https://ec.europa.eu/odr</a>. Nasz adres e-mail to:
+    <a href="mailto:legal@nevar.eu">legal@nevar.eu</a> Pragniemy jednak zaznaczyć, że nie jesteśmy skłonni ani zobowiązani
+    do udziału w rozstrzyganiu sporu procedura w ramach Europejskiego Uczestnictwa w platformie internetowego rozstrzygania
+    sporów. Aby się z nami skontaktować, skorzystaj z naszego adresu e-mail i numeru telefonu powyżej
+</p>

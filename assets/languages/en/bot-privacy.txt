@@ -1,0 +1,74 @@
+<h4>Privacy information according to the Discord Developer TOS</h4>
+<br>
+<b style='color: #D48166'>What data do we collect?</b><br>
+<p>We store Discord user IDs, usernames, server IDs, server names, channel IDs and role IDs. We collect this data through the
+       through the Discord API and there is no automatic deletion of this data. Personal data that is not already publicly
+       are not stored by us.
+    <br><br>For statistical purposes and to track certain events, we collect the following data each time a command is executed:
+<li>Name, ID and creation date of the user</li>
+<li>Command that was used with all specified arguments</li>
+<li>Date of execution and type of command</li>
+<li>Name, ID and creation date of the channel</li>
+<li>Name, ID and creation date of the server</li>
+<br>A command log object can look like this:<br><br>
+<code>
+{<br>
+&nbsp;&nbsp;id: ObjectId('6266c5f4b6fc0928acb6b8c7'),<br>
+&nbsp;&nbsp;command: 'ban',<br>
+&nbsp;&nbsp;args: ['775741196206473226', 'bye', '7d'],<br>
+&nbsp;&nbsp;type: 'slash',<br>
+&nbsp;&nbsp;date: 1650902512646,<br>
+&nbsp;&nbsp;executor: {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;username: 'Tinte',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;discriminator: '9309,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;id: '631176108372656148',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;createdAt: '2019-10-08T17:08:30.921+00:00'<br>
+&nbsp;&nbsp;},<br>
+&nbsp;&nbsp;guild: {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;name: 'Nevar - Test',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;id: '860171193402654762',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;createdAt: '2021-07-01T14:53:13.715+00:00'<br>
+&nbsp;&nbsp;},<br>
+&nbsp;&nbsp;channel: {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;name: '💬〢chat',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;id: '957669641386340474',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;createdAt: '2022-03-27T15:57:15.148+00:00'<br>
+&nbsp;&nbsp;},<br>
+&nbsp;&nbsp;__v: 0<br>
+}<br>
+</code>
+</p><br>
+<b style='color: #D48166'>Why do we store data and what do we use it for?</b><br>
+<p>We need the aforementioned data to be able to offer basic functions. Without the storage of the data, our bot would not be
+       functional, so we cannot refrain from storing it. For example, for reaction roles, our blocking system, bans
+       and many other functions, we are dependent on the storage of data.
+</p>
+<br>
+<b style='color: #D48166'>Where do we store the data and who has access to it?</b><br>
+<p>We use a MongoDB database to store everything that concerns data. Less relevant data that is automatically deleted after a certain
+       (e.g. all AFK data), we store in JSON files. Neither our MongoDB database nor our JSON files can be accessed externally.
+       Only one person has access to our server, which is protected with maximum security against unauthorised access.
+</p>
+<br>
+<b style='color: #D48166'>Can I delete my data?</b><br>
+<p>Yes, you can have some of your data deleted by us.<br>
+<li><b>Server data:</b> All server-based data can be deleted<br></li>
+<li><b>User data:</b> Except for the AFK data (which is automatically deleted), all user data can be deleted<br></li>
+<li><b>Member data:</b> Except for data regarding bans and mutes, all member data can be deleted<br></li>
+<li><b>Log data:</b> We store the use of any commands, this data is only used to collect usage statistics of our bot and to track certain events.
+                         They are not intended for deletion.</p>
+</li>
+<br>
+<b style='color: #D48166'>How can I delete my data?</b><br>
+<p>You can delete your data yourself without much effort in a few seconds: the /delete-data command brings up a menu where you can delete your user/member/server data.
+</p>
+<br>
+<b style='color: #D48166'>Where do I contact if I have concerns or questions about my data?</b><br>
+<p>Should you have any concerns or questions regarding your data, do not hesitate to contact us. We'll be happy to get you up
+        our <a href='/support'>support server</a> and by email to <a href='mailto:legal@nevar.eu'>legal@nevar.eu</a>.
+</p>
+<br>
+<b style='color: #D48166'>Disclaimer:</b><br>
+<p>We reserve the right to update this page at any time without notice or comment. Those who wish to remain up to date
+       must independently ensure.
+</p>

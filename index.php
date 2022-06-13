@@ -4,12 +4,12 @@ include_once './assets/php/functions/data.php';
 include_once './assets/php/functions/switchLang.php';
 ?>
 <!DOCTYPE html>
-<html lang="<?=$lang["lang_iso"]; ?>">
+<html lang="<?=$lang["lang"]["iso"]; ?>">
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title><?=$lang["title"] ?></title>
-    <meta content="<?=$lang["meta_description"] ?>" name="description">
+    <title><?=$lang["home"]["title"] ?></title>
+    <meta content="<?=$lang["general"]["ogDescription"] ?>" name="description">
     <meta content="Discord, Discord Bot, Nevar, Open Source Bot, Bot, Nevar Bot" name="keywords">
 
     <!-- OG Tags -->
@@ -56,23 +56,23 @@ include_once './assets/php/functions/switchLang.php';
     <div class="container">
         <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-content-center">
-                <h1 data-aos="fade-up" style="font-family:ginto"><?=$lang["home_title"] ?></h1>
-                <h2 data-aos="fade-up" data-aos-delay="400"><?=$lang["home_subtitle"] ?></h2>
+                <h1 data-aos="fade-up" style="font-family:ginto"><?=$lang["home"]["sections"]["main"]["title"] ?></h1>
+                <h2 data-aos="fade-up" data-aos-delay="400"><?=$lang["home"]["sections"]["main"]["subtitle"] ?></h2>
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div class="text-center text-lg-start">
-                        <a href="./invite?r=false" aria-label="Invite redirect" class="btn-invite scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                            <span><?=$lang["invite"] ?></span>
+                        <a href="./invite?r=0" aria-label="Invite redirect" class="btn-invite scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                            <span><?=$lang["general"]["labels"]["invite"] ?></span>
                             <i class="bi bi-arrow-right"></i>
                         </a>
                         <a href="./support" aria-label="Support redirect" class="btn-invite scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                            <span><?=$lang["support"] ?></span>
+                            <span><?=$lang["general"]["labels"]["support"] ?></span>
                             <i class="bi bi-discord"></i>
                         </a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 home-img" data-aos="zoom-out" data-aos-delay="200">
-                <img src="assets/img/favicon_transparent.webp" width="auto" height="auto" class="img-fluid" alt="Favicon with transparent background">
+                <img src="assets/img/favicon_transparent.webp" width="546" height="546" class="img-fluid" alt="Favicon with transparent background">
             </div>
         </div>
     </div>
@@ -88,7 +88,7 @@ include_once './assets/php/functions/switchLang.php';
                         <i class="bi bi-discord"></i>
                         <div>
                             <span data-purecounter-start="0" data-purecounter-end="<?=get_json_data('servers', true) ?>" data-purecounter-duration="2" class="purecounter"></span>
-                            <p><?=$lang["stats_servers"] ?></p>
+                            <p><?=$lang["home"]["sections"]["stats"]["labels"]["servers"] ?></p>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ include_once './assets/php/functions/switchLang.php';
                         <i class="bi bi-people-fill" style="color: #161F6D;"></i>
                         <div>
                             <span data-purecounter-start="0" data-purecounter-end="<?=get_json_data('users', true) ?>" data-purecounter-duration="2" class="purecounter"></span>
-                            <p><?=$lang["stats_users"] ?></p>
+                            <p><?=$lang["home"]["sections"]["stats"]["labels"]["users"] ?></p>
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@ include_once './assets/php/functions/switchLang.php';
                         <i class="bi bi-chat-left-fill" style="color: #51a270;"></i>
                         <div>
                             <span data-purecounter-start="0" data-purecounter-end="<?=get_json_data('channels', true) ?>" data-purecounter-duration="2" class="purecounter"></span>
-                            <p><?=$lang["stats_channels"] ?></p>
+                            <p><?=$lang["home"]["sections"]["stats"]["labels"]["channels"] ?></p>
                         </div>
                     </div>
                 </div>
@@ -115,7 +115,7 @@ include_once './assets/php/functions/switchLang.php';
                         <i class="bi bi-heart-fill" style="color: #ff0000;"></i>
                         <div>
                             <span data-purecounter-start="0" data-purecounter-end="<?=get_json_data('votes', true) ?>" data-purecounter-duration="2" class="purecounter"></span>
-                            <p><?=$lang["stats_votes"] ?></p>
+                            <p><?=$lang["home"]["sections"]["stats"]["labels"]["votes"] ?></p>
                         </div>
                     </div>
                 </div>
@@ -129,12 +129,12 @@ include_once './assets/php/functions/switchLang.php';
             <div class="row gx-0">
                 <div class="col-lg-12 d-flex flex-column justify-content-center">
                     <div class="content">
-                        <h3><?=$lang["about_title"] ?></h3>
-                        <h2><?=$lang["about_subtitle"] ?></h2>
-                        <p><?=$lang["about_description"] ?></p>
+                        <h3><?=$lang["home"]["sections"]["about"]["title"] ?></h3>
+                        <h2><?=$lang["home"]["sections"]["about"]["subtitle"] ?></h2>
+                        <p><?=$lang["home"]["sections"]["about"]["description"] ?></p>
                         <div class="text-center text-lg-start">
-                            <a href="/invite?r=false" aria-label="Invite redirect" class="btn-invite d-inline-flex align-items-center justify-content-center align-self-center">
-                                <span><?=$lang["invite"] ?></span>
+                            <a href="/invite?r=1" aria-label="Invite redirect" class="btn-invite d-inline-flex align-items-center justify-content-center align-self-center">
+                                <span><?=$lang["general"]["labels"]["invite"] ?></span>
                                 <i class="bi bi-arrow-right"></i>
                             </a>
                         </div>
@@ -148,8 +148,8 @@ include_once './assets/php/functions/switchLang.php';
     <section id="features" class="features">
         <div class="container">
             <header class="section-header">
-                <h2><?=$lang["features_title"] ?></h2>
-                <p><?=$lang["features_subtitle"] ?></p>
+                <h2><?=$lang["home"]["sections"]["features"]["title"] ?></h2>
+                <p><?=$lang["home"]["sections"]["features"]["subtitle"] ?></p>
             </header>
             <div class="row">
                 <div class="col-lg-12 mt-5 mt-lg-0 d-flex justify-content-center">
@@ -157,37 +157,37 @@ include_once './assets/php/functions/switchLang.php';
                         <div class="col-md-6">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
-                                <h3><?=$lang["features_administration"] ?></h3>
+                                <h3><?=$lang["home"]["sections"]["features"]["labels"]["administration"] ?></h3>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
-                                <h3><?=$lang["features_fun"] ?></h3>
+                                <h3><?=$lang["home"]["sections"]["features"]["labels"]["fun"] ?></h3>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
-                                <h3><?=$lang["features_misc"] ?></h3>
+                                <h3><?=$lang["home"]["sections"]["features"]["labels"]["misc"] ?></h3>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
-                                <h3><?=$lang["features_minigames"] ?></h3>
+                                <h3><?=$lang["home"]["sections"]["features"]["labels"]["minigames"] ?></h3>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
-                                <h3><?=$lang["features_moderation"] ?></h3>
+                                <h3><?=$lang["home"]["sections"]["features"]["labels"]["moderation"] ?></h3>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
-                                <h3><?=$lang["features_music"] ?></h3>
+                                <h3><?=$lang["home"]["sections"]["features"]["labels"]["music"] ?></h3>
                             </div>
                         </div>
                     </div>
@@ -197,96 +197,96 @@ include_once './assets/php/functions/switchLang.php';
             <!-- Feature Tabs -->
             <div class="row feture-tabs">
                 <div class="col-lg-6">
-                    <h3><?=$lang["featuresTab_title"] ?></h3>
-                    <h4><?=$lang["featuresTab_description"] ?></h4>
+                    <h3><?=$lang["home"]["sections"]["features"]["overview"]["title"] ?></h3>
+                    <h4><?=$lang["home"]["sections"]["features"]["overview"]["description"] ?></h4>
                     <!-- Tabs -->
                     <ul class="nav nav-pills mb-3">
                         <li>
-                            <a class="nav-link active" data-bs-toggle="pill" href="#tab1"><?=$lang["features_administration"] ?></a>
+                            <a class="nav-link active" data-bs-toggle="pill" href="#tab1"><?=$lang["home"]["sections"]["features"]["labels"]["administration"] ?></a>
                         </li>
                         <li>
-                            <a class="nav-link" data-bs-toggle="pill" href="#tab2"><?=$lang["features_moderation"] ?></a>
+                            <a class="nav-link" data-bs-toggle="pill" href="#tab2"><?=$lang["home"]["sections"]["features"]["labels"]["moderation"] ?></a>
                         </li>
                         <li>
-                            <a class="nav-link" data-bs-toggle="pill" href="#tab3"><?=$lang["features_misc"] ?></a>
+                            <a class="nav-link" data-bs-toggle="pill" href="#tab3"><?=$lang["home"]["sections"]["features"]["labels"]["misc"] ?></a>
                         </li>
                     </ul>
                     <!-- End Tabs -->
                     <!-- Tab Content -->
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="tab1">
-                            <p><?=$lang["f_admin_desc"] ?></p>
+                            <p><?=$lang["home"]["sections"]["features"]["overview"]["admin"]["description"] ?></p>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check2"></i>
-                                <h4><?=$lang["f_admin_1"] ?></h4>
+                                <h4><?=$lang["home"]["sections"]["features"]["overview"]["admin"]["1"] ?></h4>
                             </div>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check2"></i>
-                                <h4><?=$lang["f_admin_2"] ?></h4>
+                                <h4><?=$lang["home"]["sections"]["features"]["overview"]["admin"]["2"] ?></h4>
                             </div>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check2"></i>
-                                <h4><?=$lang["f_admin_3"] ?></h4>
+                                <h4><?=$lang["home"]["sections"]["features"]["overview"]["admin"]["3"] ?></h4>
                             </div>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check2"></i>
-                                <h4><?=$lang["f_admin_4"] ?></h4>
+                                <h4><?=$lang["home"]["sections"]["features"]["overview"]["admin"]["4"] ?></h4>
                             </div>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check2"></i>
-                                <h4><?=$lang["f_admin_5"] ?></h4>
+                                <h4><?=$lang["home"]["sections"]["features"]["overview"]["admin"]["5"] ?></h4>
                             </div>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-three-dots"></i>
-                                <h4><?=$lang["f_admin_6"] ?></h4>
+                                <h4><?=$lang["home"]["sections"]["features"]["overview"]["admin"]["6"] ?></h4>
                             </div>
                         </div>
                         <!-- End Tab 1 Content -->
                         <div class="tab-pane fade show" id="tab2">
-                            <p><?=$lang["f_mod_desc"] ?></p>
+                            <p><?=$lang["home"]["sections"]["features"]["overview"]["moderation"]["description"] ?></p>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check2"></i>
-                                <h4><?=$lang["f_mod_1"] ?></h4>
+                                <h4><?=$lang["home"]["sections"]["features"]["overview"]["moderation"]["1"] ?></h4>
                             </div>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check2"></i>
-                                <h4><?=$lang["f_mod_2"] ?></h4>
+                                <h4><?=$lang["home"]["sections"]["features"]["overview"]["moderation"]["2"] ?></h4>
                             </div>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check2"></i>
-                                <h4><?=$lang["f_mod_3"] ?></h4>
+                                <h4><?=$lang["home"]["sections"]["features"]["overview"]["moderation"]["3"] ?></h4>
                             </div>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check2"></i>
-                                <h4><?=$lang["f_mod_4"] ?></h4>
+                                <h4><?=$lang["home"]["sections"]["features"]["overview"]["moderation"]["4"] ?></h4>
                             </div>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-three-dots"></i>
-                                <h4><?=$lang["f_mod_5"] ?></h4>
+                                <h4><?=$lang["home"]["sections"]["features"]["overview"]["moderation"]["5"] ?></h4>
                             </div>
                         </div>
                         <!-- End Tab 2 Content -->
                         <div class="tab-pane fade show" id="tab3">
-                            <p><?=$lang["f_misc_desc"] ?></p>
+                            <p><?=$lang["home"]["sections"]["features"]["overview"]["misc"]["description"] ?></p>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check2"></i>
-                                <h4><?=$lang["f_misc_1"] ?></h4>
+                                <h4><?=$lang["home"]["sections"]["features"]["overview"]["misc"]["1"] ?></h4>
                             </div>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check2"></i>
-                                <h4><?=$lang["f_misc_2"] ?></h4>
+                                <h4><?=$lang["home"]["sections"]["features"]["overview"]["misc"]["2"] ?></h4>
                             </div>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check2"></i>
-                                <h4><?=$lang["f_misc_3"] ?></h4>
+                                <h4><?=$lang["home"]["sections"]["features"]["overview"]["misc"]["3"] ?></h4>
                             </div>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check2"></i>
-                                <h4><?=$lang["f_misc_4"] ?></h4>
+                                <h4><?=$lang["home"]["sections"]["features"]["overview"]["misc"]["4"] ?></h4>
                             </div>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-three-dots"></i>
-                                <h4><?=$lang["f_misc_5"] ?></h4>
+                                <h4><?=$lang["home"]["sections"]["features"]["overview"]["misc"]["5"] ?></h4>
                             </div>
                         </div>
                         <!-- End Tab 3 Content -->
@@ -304,29 +304,29 @@ include_once './assets/php/functions/switchLang.php';
     <section id="advantages" class="advantages">
         <div class="container">
             <header class="section-header">
-                <h2><?=$lang["advantages_title"] ?></h2>
-                <p><?=$lang["advantages_subtitle"] ?></p>
+                <h2><?=$lang["home"]["sections"]["advantages"]["title"] ?></h2>
+                <p><?=$lang["home"]["sections"]["advantages"]["subtitle"] ?></p>
             </header>
             <div class="row gy-4">
                 <div class="col-lg-4 col-md-12">
                     <div class="advantage-box">
                         <i class="ri-fingerprint-line icon"></i>
-                        <h3><?=$lang["advantage_1"] ?></h3>
-                        <p><?=$lang["advantage1_desc"] ?></p>
+                        <h3><?=$lang["home"]["sections"]["advantages"]["list"]["1"]["name"] ?></h3>
+                        <p><?=$lang["home"]["sections"]["advantages"]["list"]["1"]["description"] ?></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="advantage-box orange">
                         <i class="ri-upload-2-fill icon"></i>
-                        <h3><?=$lang["advantage_2"] ?></h3>
-                        <p><?=$lang["advantage2_desc"] ?></p>
+                        <h3><?=$lang["home"]["sections"]["advantages"]["list"]["2"]["name"] ?></h3>
+                        <p><?=$lang["home"]["sections"]["advantages"]["list"]["2"]["description"] ?></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="advantage-box green">
                         <i class="ri-visa-fill icon"></i>
-                        <h3><?=$lang["advantage_3"] ?></h3>
-                        <p><?=$lang["advantage3_desc"] ?></p>
+                        <h3><?=$lang["home"]["sections"]["advantages"]["list"]["3"]["name"] ?></h3>
+                        <p><?=$lang["home"]["sections"]["advantages"]["list"]["3"]["description"] ?></p>
                     </div>
                 </div>
             </div>
@@ -338,8 +338,8 @@ include_once './assets/php/functions/switchLang.php';
     <section id="activeU" class="team">
         <div class="container">
             <header class="section-header">
-                <h2><?=$lang["au_title"] ?></h2>
-                <p><?=$lang["au_subtitle"] ?></p>
+                <h2><?=$lang["home"]["sections"]["active"]["title"] ?></h2>
+                <p><?=$lang["home"]["sections"]["active"]["subtitle"] ?></p>
             </header>
             <div class="row gy-4">
                 <?php include_once './assets/php/functions/pushActiveUsers.php'; ?>
@@ -352,8 +352,8 @@ include_once './assets/php/functions/switchLang.php';
     <section id="faq" class="faq">
         <div class="container">
             <header class="section-header">
-                <h2><?=$lang["faq_title"] ?></h2>
-                <p><?=$lang["faq_subtitle"] ?></p>
+                <h2><?=$lang["home"]["sections"]["faq"]["title"] ?></h2>
+                <p><?=$lang["home"]["sections"]["faq"]["subtitle"] ?></p>
             </header>
             <div class="row">
                 <div class="col-lg-6">
@@ -362,36 +362,36 @@ include_once './assets/php/functions/switchLang.php';
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                                    <?=$lang["faq_1"] ?>
+                                    <?=$lang["home"]["sections"]["faq"]["list"]["1"]["question"] ?>
                                 </button>
                             </h2>
                             <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
                                 <div class="accordion-body" style="border-radius: 7px">
-                                    <?=$lang["faq_1_answer"] ?>
+                                    <?=$lang["home"]["sections"]["faq"]["list"]["1"]["answer"] ?>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-                                    <?=$lang["faq_2"] ?>
+                                    <?=$lang["home"]["sections"]["faq"]["list"]["2"]["question"] ?>
                                 </button>
                             </h2>
                             <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
                                 <div class="accordion-body">
-                                    <?=$lang["faq_2_answer"] ?>
+                                    <?=$lang["home"]["sections"]["faq"]["list"]["2"]["answer"] ?>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-                                    <?=$lang["faq_3"] ?>
+                                    <?=$lang["home"]["sections"]["faq"]["list"]["3"]["question"] ?>
                                 </button>
                             </h2>
                             <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
                                 <div class="accordion-body">
-                                    <?=$lang["faq_3_answer"] ?>
+                                    <?=$lang["home"]["sections"]["faq"]["list"]["3"]["answer"] ?>
                                 </div>
                             </div>
                         </div>
@@ -403,36 +403,36 @@ include_once './assets/php/functions/switchLang.php';
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
-                                    <?=$lang["faq_4"] ?>
+                                    <?=$lang["home"]["sections"]["faq"]["list"]["4"]["question"] ?>
                                 </button>
                             </h2>
                             <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
                                 <div class="accordion-body">
-                                    <?=$lang["faq_4_answer"] ?>
+                                    <?=$lang["home"]["sections"]["faq"]["list"]["4"]["answer"] ?>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
-                                    <?=$lang["faq_5"] ?>
+                                    <?=$lang["home"]["sections"]["faq"]["list"]["5"]["question"] ?>
                                 </button>
                             </h2>
                             <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
                                 <div class="accordion-body">
-                                    <?=$lang["faq_5_answer"] ?>
+                                    <?=$lang["home"]["sections"]["faq"]["list"]["5"]["answer"] ?>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
-                                    <?=$lang["faq_6"] ?>
+                                    <?=$lang["home"]["sections"]["faq"]["list"]["6"]["question"] ?>
                                 </button>
                             </h2>
                             <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
                                 <div class="accordion-body">
-                                    <?=$lang["faq_6_answer"] ?>
+                                    <?=$lang["home"]["sections"]["faq"]["list"]["6"]["answer"] ?>
                                 </div>
                             </div>
                         </div>
@@ -446,8 +446,8 @@ include_once './assets/php/functions/switchLang.php';
     <section id="team" class="team">
         <div class="container">
             <header class="section-header">
-                <h2><?=$lang["team_title"] ?></h2>
-                <p><?=$lang["team_subtitle"] ?></p>
+                <h2><?=$lang["home"]["sections"]["team"]["title"] ?></h2>
+                <p><?=$lang["home"]["sections"]["team"]["subtitle"] ?></p>
             </header>
             <div class="row gy-4">
                 <?php include_once './assets/php/functions/pushTeamMembers.php'; ?>
@@ -459,8 +459,8 @@ include_once './assets/php/functions/switchLang.php';
     <section id="clients" class="clients">
         <div class="container">
             <header class="section-header">
-                <h2><?=$lang["credits_subtitle"] ?></h2>
-                <p><?=$lang["credits_title"] ?></p>
+                <h2><?=$lang["home"]["sections"]["credits"]["title"] ?></h2>
+                <p><?=$lang["home"]["sections"]["credits"]["subtitle"] ?></p>
             </header>
             <div class="clients-slider swiper">
                 <div class="swiper-wrapper align-items-center">
@@ -503,7 +503,7 @@ include_once './assets/php/functions/switchLang.php';
 <link rel="stylesheet" href="/assets/css/cookies.css" />
 <script src="/assets/js/cookies.js"></script>
 <script>
-    glowCookies.start('<?=$lang["lang_iso"]; ?>', {
+    glowCookies.start('<?=$lang["lang"]["iso"]; ?>', {
         policyLink: '/go/legal/privacy',
         style: 1,
         bannerBackground: '#E6E2DD'

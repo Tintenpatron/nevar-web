@@ -1,7 +1,9 @@
 <h1 style='color: #D48166'>Nutzungsbedingungen</h1>
-<br><p>Dieses Regelwerk wurde zuletzt am <b>22-05-2022</b> (dd-mm-YYYY) aktualisiert und ist für alle Discordserver geltend, welche dem
-Nevar-Netzwerk angehörig sind.
-Wir behalten uns vor, die folgenden Regeln jederzeit unangekündigt anzupassen und zu verändern.</p>
+<br>
+<p>Dieses Regelwerk wurde zuletzt am <b>22-05-2022</b> (dd-mm-YYYY) aktualisiert und ist für alle Discordserver geltend, welche dem
+    Nevar-Netzwerk angehörig sind.
+    Wir behalten uns vor, die folgenden Regeln jederzeit unangekündigt anzupassen und zu verändern.
+</p>
 <br>
 <h2 style='color: #D48166'>Begriffserklärungen</h2>
 <li>Nutzer: Als Nutzer wird jeder eigenständige Account, unabhängig von seiner wahren Identität bezeichnet.</li>
@@ -13,40 +15,49 @@ Wir behalten uns vor, die folgenden Regeln jederzeit unangekündigt anzupassen u
 <br>
 <h4 style='color: #D48166'>§1.2 Kenntnisnahme des Regelwerks</h4>
 <p>(1) Jeder Nutzer akzeptiert mit dem Betreten des Servers oder durch das Einladen des Bots das Regelwerk. Er bestätigt, die Regeln in vollem
-Umfang wahrgenommen zu haben und sich an diese zu halten.</p>
+    Umfang wahrgenommen zu haben und sich an diese zu halten.
+</p>
 <p>(2) Ein Widerrufsrecht der Regeln besteht nicht, ausschließlich der Nutzer verlässt den Server oder kickt den Bot.</p>
 <p>(3) Jeder Nutzer ist dazu verpflichtet, sich eigenständig über die Aktualisierungen und Änderungen des Regelwerks zu informieren.
-Unwissenheit schützt in keinem Fall vor Strafe.</p>
+    Unwissenheit schützt in keinem Fall vor Strafe.
+</p>
 <br>
 <h4 style='color: #D48166'>§1.3 Meldepflicht</h4>
 <p>(1) Jeder Nutzer ist einer Meldepflicht untergeordnet. Sollte ein Nutzer also (passiv oder aktiv) einen Regelverstoß erfassen,
-so ist dieser verpflichtet, diesen auf schnellstem Wege an ein Teammitglied zu melden.</p>
+    so ist dieser verpflichtet, diesen auf schnellstem Wege an ein Teammitglied zu melden.
+</p>
 <br>
 <h4 style='color: #D48166'>§1.4 Folgeleistung von Moderatoren</h4>
 <p>(1) Jeder Nutzer ist dazu verpflichtet, Aufforderungen von Moderatoren Folge zu leisten, solange diese nicht selbst
-gegen Regeln oder moralische Grundsätze verstoßen.</p>
+    gegen Regeln oder moralische Grundsätze verstoßen.
+</p>
 <br>
 <h4 style='color: #D48166'>§1.5 Account-Darstellung</h4>
 <p>(1) Profilbilder, Nicknames, "Über mich" und alles Weitere dürfen keine verletzenden, beleidigenden, verbotenen oder rechtlich
-geschütze Bestandteile und Zeichen beinhalten.</p>
+    geschütze Bestandteile und Zeichen beinhalten.
+</p>
 <p>(2) Eben so darf oben genanntes nicht von einem anderen Nutzer kopiert werden, um sich als dieser ausgeben zu können.</p>
 <br>
 <h4 style='color: #D48166'>§1.6 Allgemeine Richtlinien</h4>
 <p>(1) Es ist Pflicht, sich permanent an die <a rel='noopener' target='_blank' href='https://discord.com/terms'>Discord Terms of Service</a>,
-die <a rel='noopener' target='_blank' href='https://discord.com/guidelines'>Discord Comminity-Richtlinien</a> sowie an das deutsche Gesetz zu halten.</p>
+    die <a rel='noopener' target='_blank' href='https://discord.com/guidelines'>Discord Comminity-Richtlinien</a> sowie an das deutsche Gesetz zu halten.
+</p>
 <br>
 <h2 style='color: #D48166'>§2 Verhalten im Chat</h2>
 <h4 style='color: #D48166'>§2.1 Umgangston</h4>
 <p>(1) Freundlichkeit sowie Höflichkeit hat stets oberste Priorität. Jeder Nutzer hat sich so zu verhalten, dass kein
-anderer Nutzer sich belästigt fühlt.</p>
+    anderer Nutzer sich belästigt fühlt.
+</p>
 <p>(2) Beleidigungen, provokante Diskussionen und jegliche Formen von Spam sind zu unterlassen.</p>
 <br>
 <h4 style='color: #D48166'>§2.2 Verbreitung von Inhalten</h4>
 <p>(1) Aussagen zu und Verherrlichung bzw. Verbreitung jeglicher Form von Material zu Gewalt, Sexismus, Rassismus
-oder anderen unsittlichen Themen werden in keinster Weise geduldet.</p>
+    oder anderen unsittlichen Themen werden in keinster Weise geduldet.
+</p>
 <p>(2) Falschaussagen, üble Nachrede o.Ä. sind untersagt.</p>
 <p>(3) Private Daten wie Telefonnummern, Adressen, Bildern o.Ä. dürfen nicht öffentlich erfragt oder
-ausgetauscht werden. Ebenfalls ist Account-Sharing durch das Weitergeben von Passwörtern untersagt.</p>
+    ausgetauscht werden. Ebenfalls ist Account-Sharing durch das Weitergeben von Passwörtern untersagt.
+</p>
 <p>(4) Fremdwerbung jeglicher Art in Bild und Schrift, auch per Privatnachricht an Nutzer unseres Servers, ist untersagt.</p>
 <p>(5) Nachrichten und Bilder sollten immer zum vorgegebenen Thema des Chats passen.</p>
 <br>
@@ -60,7 +71,8 @@ ausgetauscht werden. Ebenfalls ist Account-Sharing durch das Weitergeben von Pas
 <h2 style='color: #D48166'>§4 Nutzung des Nevar Bots</h2>
 <h4 style='color: #D48166'>§4.1 Mindestalter</h4>
 <p>(1) Wir sind jederzeit bereit, dass von Discord vorgegebene Mindestalter konsequent durchzusetzen. Welches Mindestalter für dich gilt,
-erfährst du hier: <a rel='noopener' target='_blank' href='https://support.discord.com/hc/de/articles/360040724612'>Warum fragt Discord nach meinem Geburtsdatum?</a></p>
+    erfährst du hier: <a rel='noopener' target='_blank' href='https://support.discord.com/hc/de/articles/360040724612'>Warum fragt Discord nach meinem Geburtsdatum?</a>
+</p>
 <br>
 <h4 style='color: #D48166'>§4.2 Missbrauch von Bugs</h4>
 <p>(1) Es ist verboten, Commands zu spammen um den Bot zu überlasten.</p>
@@ -69,21 +81,21 @@ erfährst du hier: <a rel='noopener' target='_blank' href='https://support.disco
 <br>
 <h4 style='color: #D48166'>§4.3 Haftung</h4>
 <p>(1) Wir haften für keine Inhalte, die durch einen Nutzer über den Nevar Bot gesendet und verbreitet werden (bspw. per Embed-Command).
-Wir können jederzeit vorlegen, welcher Nutzer für welchen Inhalt verantwortlich ist.</p>
+    Wir können jederzeit vorlegen, welcher Nutzer für welchen Inhalt verantwortlich ist.
+</p>
 <br>
 <h2 style='color: #D48166'>§5 Unser Vorgehen bei Regelverstößen</h2>
 <h4 style='color: #D48166'>§5.1 Grundlegende Ahndung</h4>
 <p>(1) Grundsätzlich wird bei jedem Regelverstoß individuell gehandelt. Dabei probieren wir, uns an den Grundsatz
-der Verhältnismäßigkeit zu halten.</p>
+    der Verhältnismäßigkeit zu halten.
+</p>
 <br>
 <h4 style='color: #D48166'>§5.2 Regelverstöße auf dem Supportserver</h4>
 <p>(1) Kommt es zu Regelverstößen auf dem Supportserver, kann die Folge von einem Timeout bis zu einem permanenten Ban sein.
-Das Team hat gewisse Leitlinien wie zu reagieren ist, wie genau die Bestrafung dann ausfällt kann aber jedes mal verschieden sein.</p>
+    Das Team hat gewisse Leitlinien wie zu reagieren ist, wie genau die Bestrafung dann ausfällt kann aber jedes mal verschieden sein.
+</p>
 <br>
 <h4 style='color: #D48166'>§5.3 Regelverstöße bei Nutzung des Bots</h4>
 <p>(1) Kommt es zu Regelverstößen bei der Nutzung von Nevar, folgt in den meisten Fällen eine temporäre Blockierung durch den Bot.
-Diese kann aber unter gewissen Umständen auch permanent sein.</p>
-
-
-
-
+    Diese kann aber unter gewissen Umständen auch permanent sein.
+</p>

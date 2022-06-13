@@ -1,7 +1,9 @@
 <h1 style='color: #D48166'>Terms of Use</h1>
-<br><p>This set of rules was last updated on <b>22-05-2022</b> (dd-mm-YYYY) and applies to all discord servers that follow the
-are part of the Nevar network.
-We reserve the right to adapt and change the following rules at any time without prior notice.</p>
+<br>
+<p>This set of rules was last updated on <b>22-05-2022</b> (dd-mm-YYYY) and applies to all discord servers that follow the
+    are part of the Nevar network.
+    We reserve the right to adapt and change the following rules at any time without prior notice.
+</p>
 <br>
 <h2 style='color: #D48166'>Explanations of terms</h2>
 <li>User: Any independent account, regardless of its true identity, is referred to as a user.</li>
@@ -13,42 +15,51 @@ We reserve the right to adapt and change the following rules at any time without
 <br>
 <h4 style='color: #D48166'>§1.2 Acknowledgment of the regulations</h4>
 <p>(1) Every user accepts the set of rules by entering the server or by inviting the bot. He confirms that he has
-observed the rules in full and will abide by them.</p>
+    observed the rules in full and will abide by them.
+</p>
 <p>(2) There is no right of cancellation of the rules, only the user leaves the server or kicks the bot.</p>
 <p>(3) Every user is obliged to independently inform themselves about the updates and changes to the set of rules.
-       Ignorance in no way protects against punishment.</p>
+    Ignorance in no way protects against punishment.
+</p>
 <br>
 <h4 style='color: #D48166'>§1.3 Obligation to report</h4>
 <p>(1) Each user is subject to a reporting obligation. If a user (passively or actively) detects a violation of the
-rules, he is obliged to report this to a team member as quickly as possible.</p>
+    rules, he is obliged to report this to a team member as quickly as possible.
+</p>
 <br>
 <h4 style='color: #D48166'>§1.4 Follow-up performance by moderators</h4>
 <p>(1) Every user is obliged to follow requests from moderators as long as they do not do it themselves
-       violate rules or moral principles.</p>
+    violate rules or moral principles.
+</p>
 <br>
 <h4 style='color: #D48166'>§1.5 Account representation</h4>
 <p>(1) Profile pictures, nicknames, "About me" and everything else must not be infringing, offensive, prohibited or illegal
-       contain protected components and symbols.</p>
+    contain protected components and symbols.
+</p>
 <p>(2) Likewise, the above must not be copied by another user in order to be able to impersonate them.</p>
 <br>
 <h4 style='color: #D48166'>§1.6 General guidelines</h4>
 <p>(1) It is mandatory to permanently adhere to the
-<a rel='noopener' target='_blank' href='https://discord.com/terms'>Discord Terms of Service</a>,
-the <a rel='noopener ' target='_blank' href='https://discord.com/guidelines'>Discord Community Guidelines</a> and
-to comply with German law.</p>
+    <a rel='noopener' target='_blank' href='https://discord.com/terms'>Discord Terms of Service</a>,
+    the <a rel='noopener ' target='_blank' href='https://discord.com/guidelines'>Discord Community Guidelines</a> and
+    to comply with German law.
+</p>
 <br>
 <h2 style='color: #D48166'>§2 Behavior in chat</h2>
 <h4 style='color: #D48166'>§2.1 Tone of voice</h4>
 <p>(1) Friendliness and courtesy always have top priority. Every user has to behave in such a way that no
-       other user feels harassed.</p>
+    other user feels harassed.
+</p>
 <p>(2) Insults, provocative discussions and any form of spam are to be avoided.</p>
 <br>
 <h4 style='color: #D48166'>§2.2 Distribution of Content</h4>
 <p>(1) Assert and glorify or disseminate any form of material related to violence, sexism, racism
-       or other immoral topics will not be tolerated in any way.</p>
+    or other immoral topics will not be tolerated in any way.
+</p>
 <p>(2) False statements, slander or similar are prohibited.</p>
 <p>(3) Private data such as telephone numbers, addresses, pictures, etc. must not be publicly requested or
-       be replaced. Account sharing by passing on passwords is also prohibited.</p>
+    be replaced. Account sharing by passing on passwords is also prohibited.
+</p>
 <p>(4) External advertising of any kind in image and writing, including private messages to users of our server, is prohibited.</p>
 <p>(5) Messages and pictures should always fit the given topic of the chat.</p>
 <br>
@@ -62,7 +73,8 @@ to comply with German law.</p>
 <h2 style='color: #D48166'>§4 Use of the Nevar Bot</h2>
 <h4 style='color: #D48166'>§4.1 Minimum age</h4>
 <p>(1) We are always ready to consistently enforce the minimum age specified by Discord. You can find out which minimum age applies to you here:
-<a rel='noopener' target='_blank' href='https://support.discord.com/hc/en/articles/360040724612'>Why is Discord asking for my birthday?</a></p>
+    <a rel='noopener' target='_blank' href='https://support.discord.com/hc/en/articles/360040724612'>Why is Discord asking for my birthday?</a>
+</p>
 <br>
 <h4 style='color: #D48166'>§4.2 Bug Abuse</h4>
 <p>(1) It is forbidden to spam commands to overload the bot.</p>
@@ -71,21 +83,21 @@ to comply with German law.</p>
 <br>
 <h4 style='color: #D48166'>§4.3 Liability</h4>
 <p>(1) We are not liable for any content sent and distributed by a user via the Nevar Bot (e.g. via embed command).
-We can show at any time which user is responsible for which content.</p>
+    We can show at any time which user is responsible for which content.
+</p>
 <br>
 <h2 style='color: #D48166'>§5 Our approach to rule violations</h2>
 <h4 style='color: #D48166'>§5.1 Basic penalty</h4>
 <p>(1) In principle, every violation of the rules is dealt with individually. We try to stick to the principle
-       of proportionality.</p>
+    of proportionality.
+</p>
 <br>
 <h4 style='color: #D48166'>§5.2 Rule violations on the support server</h4>
 <p>(1) If there are rule violations on the support server, the result can be anything from a timeout to a permanent ban.
-       The team has certain guidelines on how to respond, but the exact punishment may vary from time to time.</p>
+    The team has certain guidelines on how to respond, but the exact punishment may vary from time to time.
+</p>
 <br>
 <h4 style='color: #D48166'>§5.3 Rule violations when using the bot</h4>
 <p>(1) If there are rule violations when using Nevar, the bot will in most cases temporarily block the user.
-       However, this can also be permanent under certain circumstances.</p>
-
-
-
-
+    However, this can also be permanent under certain circumstances.
+</p>
