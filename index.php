@@ -1,7 +1,7 @@
 <?php
-include_once './assets/php/handler/language.php';
-include_once './assets/php/functions/data.php';
-include_once './assets/php/functions/switchLang.php';
+    include_once './assets/php/handler/language.php';
+    include_once './assets/php/functions/data.php';
+    include_once './assets/php/functions/switchLang.php';
 ?>
 <!DOCTYPE html>
 <html lang="<?=$lang["lang"]["iso"]; ?>">
@@ -12,32 +12,21 @@ include_once './assets/php/functions/switchLang.php';
     <meta content="<?=$lang["general"]["ogDescription"] ?>" name="description">
     <meta content="Discord, Discord Bot, Nevar, Open Source Bot, Bot, Nevar Bot" name="keywords">
 
-    <!-- OG Tags -->
     <?php include_once './assets/php/templates/og.php' ?>
-    <!-- Favicons -->
+
     <link href="assets/img/favicon.webp" rel="icon">
     <link href="assets/img/favicon.webp" rel="apple-touch-icon">
-    <!-- Vendor CSS Files -->
+
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <!-- Main CSS File -->
+
     <link href="assets/css/style.css" rel="stylesheet">
-</head>
-<body>
-<!-- ======= Header ======= -->
-<header id="header" class="header fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-        <a href="/" aria-label="Home redirect" class="logo d-flex align-items-center">
-            <span>Nevar</span>
-        </a>
-        <?php include_once './assets/php/templates/navbar.php'; ?>
-    </div>
+
     <script>
         var _paq = window._paq = window._paq || [];
-        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
         _paq.push(['requireConsent']);
         _paq.push(['trackPageView']);
         _paq.push(['enableLinkTracking']);
@@ -49,9 +38,17 @@ include_once './assets/php/functions/switchLang.php';
             g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
         })();
     </script>
+
+</head>
+<body>
+<header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+        <a href="/" aria-label="Home redirect" class="logo d-flex align-items-center">
+            <span>Nevar</span>
+        </a>
+        <?php include_once './assets/php/templates/navbar.php'; ?>
+    </div>
 </header>
-<!-- End Header -->
-<!-- ======= Home Section ======= -->
 <section id="home" class="home d-flex align-items-center">
     <div class="container">
         <div class="row">
@@ -77,9 +74,7 @@ include_once './assets/php/functions/switchLang.php';
         </div>
     </div>
 </section>
-<!-- End Home -->
 <main id="main">
-    <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
         <div class="container">
             <div class="row gy-4">
@@ -122,8 +117,6 @@ include_once './assets/php/functions/switchLang.php';
             </div>
         </div>
     </section>
-    <!-- End Counts Section -->
-    <!-- ======= About Section ======= -->
     <section id="about" class="about">
         <div class="container">
             <div class="row gx-0">
@@ -143,8 +136,6 @@ include_once './assets/php/functions/switchLang.php';
             </div>
         </div>
     </section>
-    <!-- End About Section -->
-    <!-- ======= Features Section ======= -->
     <section id="features" class="features">
         <div class="container">
             <header class="section-header">
@@ -193,13 +184,10 @@ include_once './assets/php/functions/switchLang.php';
                     </div>
                 </div>
             </div>
-            <!-- / row -->
-            <!-- Feature Tabs -->
             <div class="row feture-tabs">
                 <div class="col-lg-6">
                     <h3><?=$lang["home"]["sections"]["features"]["overview"]["title"] ?></h3>
                     <h4><?=$lang["home"]["sections"]["features"]["overview"]["description"] ?></h4>
-                    <!-- Tabs -->
                     <ul class="nav nav-pills mb-3">
                         <li>
                             <a class="nav-link active" data-bs-toggle="pill" href="#tab1"><?=$lang["home"]["sections"]["features"]["labels"]["administration"] ?></a>
@@ -211,8 +199,6 @@ include_once './assets/php/functions/switchLang.php';
                             <a class="nav-link" data-bs-toggle="pill" href="#tab3"><?=$lang["home"]["sections"]["features"]["labels"]["misc"] ?></a>
                         </li>
                     </ul>
-                    <!-- End Tabs -->
-                    <!-- Tab Content -->
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="tab1">
                             <p><?=$lang["home"]["sections"]["features"]["overview"]["admin"]["description"] ?></p>
@@ -241,7 +227,6 @@ include_once './assets/php/functions/switchLang.php';
                                 <h4><?=$lang["home"]["sections"]["features"]["overview"]["admin"]["6"] ?></h4>
                             </div>
                         </div>
-                        <!-- End Tab 1 Content -->
                         <div class="tab-pane fade show" id="tab2">
                             <p><?=$lang["home"]["sections"]["features"]["overview"]["moderation"]["description"] ?></p>
                             <div class="d-flex align-items-center mb-2">
@@ -265,7 +250,6 @@ include_once './assets/php/functions/switchLang.php';
                                 <h4><?=$lang["home"]["sections"]["features"]["overview"]["moderation"]["5"] ?></h4>
                             </div>
                         </div>
-                        <!-- End Tab 2 Content -->
                         <div class="tab-pane fade show" id="tab3">
                             <p><?=$lang["home"]["sections"]["features"]["overview"]["misc"]["description"] ?></p>
                             <div class="d-flex align-items-center mb-2">
@@ -289,18 +273,14 @@ include_once './assets/php/functions/switchLang.php';
                                 <h4><?=$lang["home"]["sections"]["features"]["overview"]["misc"]["5"] ?></h4>
                             </div>
                         </div>
-                        <!-- End Tab 3 Content -->
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <img src="assets/img/features.webp" width="auto" height="auto" class="img-fluid" alt="Features image">
                 </div>
             </div>
-            <!-- End Feature Tabs -->
         </div>
     </section>
-    <!-- End Features Section -->
-    <!-- ======= Advantages Section ======= -->
     <section id="advantages" class="advantages">
         <div class="container">
             <header class="section-header">
@@ -332,9 +312,6 @@ include_once './assets/php/functions/switchLang.php';
             </div>
         </div>
     </section>
-    <!-- End Advantages Section -->
-    <!-- ======= Active Users Section ======= -->
-
     <section id="activeU" class="team">
         <div class="container">
             <header class="section-header">
@@ -346,9 +323,6 @@ include_once './assets/php/functions/switchLang.php';
             </div>
         </div>
     </section>
-    <!-- End Active Users Section -->
-
-    <!-- ======= F.A.Q Section ======= -->
     <section id="faq" class="faq">
         <div class="container">
             <header class="section-header">
@@ -357,7 +331,6 @@ include_once './assets/php/functions/switchLang.php';
             </header>
             <div class="row">
                 <div class="col-lg-6">
-                    <!-- F.A.Q List 1-->
                     <div class="accordion accordion-flush" id="faqlist1">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
@@ -398,7 +371,6 @@ include_once './assets/php/functions/switchLang.php';
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <!-- F.A.Q List 2-->
                     <div class="accordion accordion-flush" id="faqlist2">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
@@ -441,8 +413,6 @@ include_once './assets/php/functions/switchLang.php';
             </div>
         </div>
     </section>
-    <!-- End F.A.Q Section -->
-    <!-- ======= Team Section ======= -->
     <section id="team" class="team">
         <div class="container">
             <header class="section-header">
@@ -454,8 +424,6 @@ include_once './assets/php/functions/switchLang.php';
             </div>
         </div>
     </section>
-    <!-- End Team Section -->
-    <!-- ======= Credits Section ======= -->
     <section id="clients" class="clients">
         <div class="container">
             <header class="section-header">
@@ -476,15 +444,11 @@ include_once './assets/php/functions/switchLang.php';
             </div>
         </div>
     </section>
-    <!-- End Clients Section -->
 </main>
-<!-- End #main -->
-<!-- ======= Footer ======= -->
+
 <?php include_once './assets/php/templates/footer.php'; ?>
-<!-- End Footer -->
-<!-- Back to Top -->
+
 <a href="/#home" aria-label="Back to top button" class="nav-link scrollto back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-<!-- Vendor JS Files -->
 <script src="assets/vendor/purecounter/purecounter.js"></script>
 <script src="assets/vendor/aos/aos.js"></script>
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -493,21 +457,18 @@ include_once './assets/php/functions/switchLang.php';
 <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 <script src="assets/vendor/php-email-form/validate.js"></script>
 <script src="assets/js/jquery-min-3.6.0.js"></script>
-
-<!-- Main JS File -->
 <script src="assets/js/main.js"></script>
 <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
+<link href="assets/fonts/OpenSans.css" rel="stylesheet">
 </body>
 <link rel="stylesheet" href="/assets/css/cookies.css" />
 <script src="/assets/js/cookies.js"></script>
 <script>
     glowCookies.start('<?=$lang["lang"]["iso"]; ?>', {
         policyLink: '/go/legal/privacy',
-        style: 1,
-        bannerBackground: '#E6E2DD'
-
+        style: 0,
+        bannerBackground: '#E6E2DD',
+        hideAfterClick: true
     });
 </script>
 </html>

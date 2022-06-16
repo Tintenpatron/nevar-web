@@ -196,7 +196,7 @@ class LanguagesGC {
             },
             de: {
                 'bannerHeading': 'Verwendung von Cookies',
-                'bannerDescription': 'Wir nutzen Cookies (auch von Drittanbietern), um Inhalte zu personalisieren und Surfverhalten zu analysieren.',
+                'bannerDescription': 'Wir nutzen auf unserer Website Cookies (auch von Dritt- sowie US-Anbietern), um Inhalte zu personalisieren und Surfverhalten zu analysieren. Cookie-Einstellungen können jederzeit widerrufen und angepasst werden.<br>',
                 'bannerLinkText': 'Mehr über Cookies',
                 'acceptBtnText': 'Cookies akzeptieren',
                 'rejectBtnText': 'Ablehnen',
@@ -204,7 +204,7 @@ class LanguagesGC {
             },
             en: {
                 'bannerHeading': 'We use cookies',
-                'bannerDescription': 'We use our own and third-party cookies to personalize content and to analyze web traffic.',
+                'bannerDescription': 'We use our own, third-party and US providers cookies to personalize content and to analyze web traffic. Cookie settings can be revoked and adjusted at any time.<br>',
                 'bannerLinkText': 'Read more about cookies',
                 'acceptBtnText': 'Accept cookies',
                 'rejectBtnText': 'Reject',
@@ -236,7 +236,7 @@ class LanguagesGC {
             },
             es: {
                 'bannerHeading': 'Uso de cookies',
-                'bannerDescription': 'Utilizamos cookies propias y de terceros para personalizar el contenido y para analizar el tráfico de la web.',
+                'bannerDescription': 'Utilizamos cookies propias, de terceros y de proveedores de Estados Unidos para personalizar contenidos y analizar el tráfico web. La configuración de cookies se puede revocar y ajustar en cualquier momento.<br>',
                 'bannerLinkText': 'Ver más sobre las cookies',
                 'acceptBtnText': 'Aceptar cookies',
                 'rejectBtnText': 'Rechazar',
@@ -284,7 +284,7 @@ class LanguagesGC {
             },
             pl: {
                 'bannerHeading': 'Używamy plików cookie',
-                'bannerDescription': 'Ta strona używa plików cookie - zarówno własnych, jak i od zewnętrznych dostawców, w celu personalizacji treści i analizy ruchu.',
+                'bannerDescription': 'Ta strona korzysta z plików cookie - zarówno dostawców wewnętrznych, jak i zewnętrznych oraz dostawców z USA - w celu personalizacji treści i analizy ruchu. Ustawienia plików cookie można w każdej chwili cofnąć i zmienić.<br>',
                 'bannerLinkText': 'Więcej o plikach cookie',
                 'acceptBtnText': 'Zaakceptuj pliki cookie',
                 'rejectBtnText': 'Odrzuć',
